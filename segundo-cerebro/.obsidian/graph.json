@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "-path:Proyecto",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Periodos",
+      "color": {
+        "a": 1,
+        "rgb": 11028255
+      }
+    },
+    {
+      "query": "path:Eventos",
+      "color": {
+        "a": 1,
+        "rgb": 4030118
+      }
+    },
+    {
+      "query": "path:Personajes",
+      "color": {
+        "a": 1,
+        "rgb": 5208922
+      }
+    },
+    {
+      "query": "path:Lugares",
+      "color": {
+        "a": 1,
+        "rgb": 13211199
+      }
+    },
+    {
+      "query": "path:Pueblos",
+      "color": {
+        "a": 1,
+        "rgb": 13070415
+      }
+    },
+    {
+      "query": "path:Territorios",
+      "color": {
+        "a": 1,
+        "rgb": 9276293
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.3,
+  "lineSizeMultiplier": 0.8,
+  "collapse-forces": false,
+  "centerStrength": 0.45,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 180,
+  "scale": 0.19453998711607465,
+  "close": false
+}

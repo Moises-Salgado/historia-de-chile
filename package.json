@@ -1,0 +1,14 @@
+{
+  "name": "historia-de-chile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Historia de Chile: línea de tiempo y mapa histórico para niños, adultos y maestros. Contenido en un vault de Obsidian.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "geo": "node scripts/build-geo.mjs",
+    "start": "npx -y http-server site -p 5173 -a 127.0.0.1 -c-1",
+    "img": "node scripts/build-img.mjs",
+    "video": "node scripts/build-video.mjs"
+  }
+}
