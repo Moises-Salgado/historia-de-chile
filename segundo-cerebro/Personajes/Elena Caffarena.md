@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: mujer
 nombre: Elena Caffarena
 vida: 1903–2003
 rol: Abogada y feminista, impulsora del voto femenino

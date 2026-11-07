@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Lord Cochrane
 vida: 1775–1860
 rol: Marino escocés, vicealmirante de la primera escuadra chilena

@@ -5,10 +5,12 @@ orden: 7
 inicio: 1861
 fin: 1891
 rango: 1861–1891
+gancho: "Treinta años en que Chile creció al norte, al sur y hasta Rapa Nui"
+revisado: pendiente
 tags:
   - periodo
-imagen: "José Joaquín Pérez. Presidente de la República de Chile (1861-1871).png"
-imagen_pie: "José Joaquín Pérez, presidente de Chile entre 1861 y 1871. Retrato del siglo XIX, autor desconocido."
+imagen: "Ocupacion de la Araucanía 1869.JPG"
+imagen_pie: "Cornelio Saavedra parlamenta con lonkos mapuche durante la Ocupación de la Araucanía, hacia 1869. Dibujo atribuido a Manuel Olascoaga."
 ---
 # República Liberal
 

@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Pedro de Valdivia
 vida: 1497–1553
 rol: Conquistador español, fundador de Santiago

@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Diego de Almagro
 vida: c. 1475–1538
 rol: Conquistador español, encabezó la primera expedición española a Chile

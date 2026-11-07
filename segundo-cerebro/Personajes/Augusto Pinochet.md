@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Augusto Pinochet
 vida: 1915–2006
 rol: Militar, jefe de la dictadura militar (1973–1990)

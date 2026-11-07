@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moises-salgado.github.io/historia-de-chile/sitemap.xml

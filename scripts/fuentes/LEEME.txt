@@ -1,0 +1,2 @@
+Tipografías (SIL Open Font License 1.1) para las tarjetas de compartir que genera scripts/build-og.mjs.
+Newsreader (Production Type) y Atkinson Hyperlegible Next (Braille Institute), de Google Fonts.

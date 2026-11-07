@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Arturo Alessandri
 vida: 1868–1950
 rol: Político liberal, presidente de Chile (1920–1925 y 1932–1938)

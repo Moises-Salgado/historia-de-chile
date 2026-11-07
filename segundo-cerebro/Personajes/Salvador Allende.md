@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Salvador Allende
 vida: 1908–1973
 rol: Médico y político socialista, presidente de Chile (1970–1973)

@@ -5,6 +5,8 @@ orden: 3
 inicio: 1599
 fin: 1809
 rango: 1598–1810
+gancho: "Dos siglos con un río por frontera entre el reino y el pueblo mapuche"
+revisado: pendiente
 tags:
   - periodo
 imagen: "Geographic Chart of the Kingdom of Chile WDL3968.png"

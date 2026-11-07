@@ -79,14 +79,18 @@ Columnas: archivo | anio | fecha | lat | lon | lugar | personajes | nivel
 - Combate Naval de Iquique | 1879 | 21 de mayo de 1879 | -20.21 | -70.15 | Iquique | Arturo Prat | 1° medio
 - Toma del Morro de Arica | 1880 | 7 de junio de 1880 | -18.48 | -70.32 | Arica | — | 1° medio
 - Tratado de Límites con Argentina | 1881 | 23 de julio de 1881 | -51.70 | -72.50 | Patagonia | — | 1° medio
+- Ocupación de Tierra del Fuego y genocidio selk'nam | 1883 | c. 1880–1910 | -53.80 | -69.40 | Patagonia | — | 1° medio
 - Incorporación de Rapa Nui | 1888 | 9 de septiembre de 1888 | -27.15 | -109.43 | Rapa Nui | Policarpo Toro | 1° medio
 - Guerra Civil de 1891 | 1891 | enero–agosto de 1891 | -33.05 | -71.60 | Valparaíso | José Manuel Balmaceda | 1° medio
 
 ### 8 · República Parlamentaria
 - La época del salitre | 1895 | c. 1880–1930 | -20.21 | -69.79 | Desierto de Atacama | — | 1° medio
 - La cuestión social | 1900 | c. 1880–1920 | -33.45 | -70.66 | Santiago | Luis Emilio Recabarren | 1° medio
+- Colonización de Aysén | 1903 | 1903–1937 | -45.57 | -72.07 | Patagonia | — | 1° medio
 - Matanza de la Escuela Santa María de Iquique | 1907 | 21 de diciembre de 1907 | -20.21 | -70.15 | Iquique | — | 1° medio
 - Centenario de la Independencia | 1910 | 18 de septiembre de 1910 | -33.44 | -70.65 | Santiago | — | 1° medio
+- Movimiento mapuche del siglo XX | 1910 | 1910–1979 | -38.72 | -72.62 | Temuco | — | 2° medio
+- Rebelión de María Angata | 1914 | 30 de junio–agosto de 1914 | -27.14 | -109.42 | Rapa Nui | María Angata | 1° medio
 - Ley de Instrucción Primaria Obligatoria | 1920 | 26 de agosto de 1920 | -33.44 | -70.65 | Santiago | — | 1° medio
 
 ### 9 · República Presidencial
@@ -95,7 +99,9 @@ Columnas: archivo | anio | fecha | lat | lon | lugar | personajes | nivel
 - Gabriela Mistral, Premio Nobel | 1945 | 15 de noviembre de 1945 | -30.03 | -70.71 | Valle de Elqui | Gabriela Mistral | 2° medio
 - Voto femenino | 1949 | 8 de enero de 1949 | -33.44 | -70.65 | Santiago | Elena Caffarena | 2° medio
 - Terremoto de Valdivia | 1960 | 22 de mayo de 1960 | -39.82 | -73.24 | Valdivia | — | 2° medio
+- La Nueva Canción Chilena | 1965 | c. 1965–1973 | -33.45 | -70.64 | Santiago | Violeta Parra | 2° medio
 - Reforma Agraria | 1967 | 1962–1973 | -34.59 | -71.00 | — | Eduardo Frei Montalva | 2° medio
+- Astronomía en el norte de Chile | 1969 | desde el 25 de marzo de 1969 | -29.26 | -70.73 | — | Eduardo Frei Montalva | 2° medio
 - Elección de Salvador Allende | 1970 | 4 de septiembre de 1970 | -33.44 | -70.65 | Santiago | Salvador Allende | 2° medio
 - Nacionalización del cobre | 1971 | 11 de julio de 1971 | -22.29 | -68.90 | Chuquicamata | Salvador Allende | 2° medio
 
@@ -115,10 +121,11 @@ Columnas: archivo | anio | fecha | lat | lon | lugar | personajes | nivel
 - Rescate de los 33 mineros | 2010 | 13 de octubre de 2010 | -27.16 | -70.49 | Copiapó | — | 2° medio
 - Estallido social | 2019 | 18 de octubre de 2019 | -33.44 | -70.63 | Santiago | — | 2° medio
 - Procesos constitucionales | 2020 | 2020–2023 | -33.44 | -70.65 | Santiago | — | 2° medio
+- Migración del siglo XXI | 2021 | c. 2010–2024 | -20.24 | -70.14 | Iquique | — | 2° medio
 - Elecciones presidenciales de 2025 | 2025 | 14 de diciembre de 2025 | -33.44 | -70.65 | Santiago | — | 2° medio
 
 ## Personajes
-Hernando de Magallanes · Diego de Almagro · Pedro de Valdivia · Inés de Suárez · Michimalonco · Lautaro · Caupolicán · Alonso de Ercilla · Pelantaro · Ambrosio O'Higgins · Alexander Selkirk · Bernardo O'Higgins · José Miguel Carrera · Javiera Carrera · Camilo Henríquez · Manuel Rodríguez · José de San Martín · Lord Cochrane · José Miguel Infante · Ramón Freire · Diego Portales · Manuel Bulnes · Andrés Bello · Vicente Pérez Rosales · Cornelio Saavedra · Kilapán · Arturo Prat · Policarpo Toro · José Manuel Balmaceda · Luis Emilio Recabarren · Arturo Alessandri · Pedro Aguirre Cerda · Gabriela Mistral · Elena Caffarena · Eduardo Frei Montalva · Salvador Allende · Augusto Pinochet · Patricio Aylwin · Michelle Bachelet
+Hernando de Magallanes · Diego de Almagro · Pedro de Valdivia · Inés de Suárez · Michimalonco · Lautaro · Caupolicán · Alonso de Ercilla · Pelantaro · Ambrosio O'Higgins · Alexander Selkirk · Bernardo O'Higgins · José Miguel Carrera · Javiera Carrera · Camilo Henríquez · Manuel Rodríguez · José de San Martín · Lord Cochrane · José Miguel Infante · Ramón Freire · Diego Portales · Manuel Bulnes · Andrés Bello · Vicente Pérez Rosales · Cornelio Saavedra · Kilapán · Arturo Prat · Policarpo Toro · José Manuel Balmaceda · Luis Emilio Recabarren · Arturo Alessandri · Pedro Aguirre Cerda · Gabriela Mistral · Elena Caffarena · María Angata · Violeta Parra · Eduardo Frei Montalva · Salvador Allende · Augusto Pinochet · Patricio Aylwin · Michelle Bachelet
 
 ## Lugares (archivo · lat · lon)
 Arica -18.48 -70.31 · San Pedro de Atacama -22.91 -68.20 · Valle de Elqui -30.03 -70.71 · Rapa Nui -27.12 -109.37 · Estrecho de Magallanes -53.60 -70.90 · Copiapó -27.37 -70.33 · Santiago -33.44 -70.65 · Wallmapu -38.50 -72.40 · Río Biobío -37.30 -72.60 · Concepción -36.82 -73.04 · Patagonia -48.00 -73.00 · Chiloé -42.60 -73.90 · Valdivia -39.81 -73.24 · Archipiélago Juan Fernández -33.64 -78.83 · Osorno -40.57 -73.14 · Rancagua -34.17 -70.74 · Talca -35.43 -71.66 · Punta Arenas -53.16 -70.91 · Llanquihue -41.26 -72.99 · Temuco -38.74 -72.60 · Antofagasta -23.65 -70.40 · Iquique -20.21 -70.15 · Valparaíso -33.05 -71.62 · Desierto de Atacama -24.50 -69.25 · Chillán -36.61 -72.10 · Chuquicamata -22.29 -68.90 · Territorio Chileno Antártico -75.00 -71.00

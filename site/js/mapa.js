@@ -39,7 +39,7 @@
   // ---------------------------------------------------------------- Mapa principal
   var svg, vista, gZonas, gPins, gRot, patrones = [], pins = {}, zonas = [], rotulos = [];
   var cam = { cx: M.w / 2, cy: M.h / 2, s: 4 }, anim = null, W = 1, H = 1;
-  var opts = {}, tip, terr = [], origIdx = {}, regEls = [], regEv = [], evReg = {};
+  var opts = {}, tip, terr = [], origIdx = {}, extIdx = {}, regEls = [], regEv = [], evReg = {};
   function nombreRegion(r) { return r.nombre === 'Metropolitana' ? 'Región Metropolitana' : 'Región de ' + r.nombre; }
   // Capas históricas activas que cubren un punto (unidades del mapa).
   function capasEn(u) {
@@ -58,23 +58,33 @@
       var ia = a.fases.some(function (f) { return f[2] === 'inca'; }), ib = b.fases.some(function (f) { return f[2] === 'inca'; });
       return (ia - ib) || (a.orden - b.orden);
     });
-    var oi = 0;
+    var oi = 0, xi = 0;
     terr.forEach(function (t) { if (t.fases.some(function (f) { return f[2] === 'originario'; })) origIdx[t.id] = oi++; });
+    // Países extranjeros alternan trama (diagonal / horizontal): Perú y Bolivia ya no se confunden en la leyenda (A4).
+    terr.forEach(function (t) { if (t.fases.some(function (f) { return f[2] === 'extranjero'; })) extIdx[t.id] = xi++; });
 
     var defs = el('defs', {}, svg);
     var clipC = el('clipPath', { id: 'clip-CHL' }, defs);
     M.regiones.forEach(function (r) { el('path', { d: r.d }, clipC); });
     var arg = M.vecinos.filter(function (v) { return v.nombre === 'Argentina'; })[0];
     if (arg) el('path', { d: arg.d }, el('clipPath', { id: 'clip-ARG' }, defs));
-    [['p-extranjero', 'var(--z-extranjero)', 45], ['p-disputa', 'var(--z-disputa)', 45], ['p-inca', 'var(--z-inca)', -45]].forEach(function (p) {
+    [['p-extranjero', 'var(--z-extranjero)', 45], ['p-extranjero-2', 'var(--z-extranjero)', 0], ['p-disputa', 'var(--z-disputa)', 45], ['p-inca', 'var(--z-inca)', -45]].forEach(function (p) {
       var pat = el('pattern', { id: p[0], patternUnits: 'userSpaceOnUse', width: 6, height: 6, 'data-rot': p[2] }, defs);
       el('rect', { width: 6, height: 6, fill: 'var(--land)', 'fill-opacity': p[0] === 'p-inca' ? 0 : 0.5 }, pat);
       el('rect', { width: 2.2, height: 6, style: 'fill:' + p[1] }, pat);
       patrones.push(pat);
     });
 
+    // Los países vecinos se desvanecen hacia los bordes recortados (no terminan en un corte recto).
+    var gx = el('linearGradient', { id: 'g-der', gradientUnits: 'userSpaceOnUse', x1: M.w - 140, y1: 0, x2: M.w, y2: 0 }, defs);
+    el('stop', { offset: 0, 'stop-color': '#fff' }, gx); el('stop', { offset: 1, 'stop-color': '#000' }, gx);
+    var gy = el('linearGradient', { id: 'g-arr', gradientUnits: 'userSpaceOnUse', x1: 0, y1: 0, x2: 0, y2: 120 }, defs);
+    el('stop', { offset: 0, 'stop-color': '#000' }, gy); el('stop', { offset: 1, 'stop-color': '#fff' }, gy);
+    el('rect', { x: -2000, y: -2000, width: M.w + 4000, height: M.h + 4000, fill: 'url(#g-der)' }, el('mask', { id: 'm-der', maskUnits: 'userSpaceOnUse', x: -2000, y: -2000, width: M.w + 4000, height: M.h + 4000 }, defs));
+    el('rect', { x: -2000, y: -2000, width: M.w + 4000, height: M.h + 4000, fill: 'url(#g-arr)' }, el('mask', { id: 'm-arr', maskUnits: 'userSpaceOnUse', x: -2000, y: -2000, width: M.w + 4000, height: M.h + 4000 }, defs));
+
     vista = el('g', {}, svg);
-    var gV = el('g', {}, vista);
+    var gV = el('g', { mask: 'url(#m-der)' }, el('g', { mask: 'url(#m-arr)' }, vista));
     M.vecinos.forEach(function (v) { el('path', { d: v.d, class: 'vecino' }, gV); });
     var gT = el('g', {}, vista);
     M.regiones.forEach(function (r) { el('path', { d: r.d, class: 'tierra' }, gT); });
@@ -243,9 +253,10 @@
       z.n.classList.toggle('on', !!f);
       if (!f) return;
       var e = ESTILO[f[2]] || ESTILO.chile;
-      var fill = f[2] === 'originario' ? 'var(--o' + ((origIdx[z.t.id] % 6) + 1) + ')' : e.fill;
+      var alt = f[2] === 'extranjero' && extIdx[z.t.id] % 2 === 1;
+      var fill = f[2] === 'originario' ? 'var(--o' + ((origIdx[z.t.id] % 6) + 1) + ')' : alt ? 'url(#p-extranjero-2)' : e.fill;
       z.n.style.fill = fill; z.n.style.fillOpacity = e.op;
-      activas.push({ f: f, fill: fill, e: e });
+      activas.push({ f: f, fill: fill, e: alt ? { op: 1, css: 'repeating-linear-gradient(90deg,var(--z-extranjero) 0 2px,transparent 2px 5px)' } : e });
     });
     terr.forEach(function (t) {
       if (!t.inset || !islas[t.inset]) return;
@@ -326,7 +337,7 @@
     eventos.forEach(function (ev) { var i = regionDe(ev); evReg[ev.id] = i; if (i >= 0) regEv[i].push(ev.id); });
     eventos.forEach(function (ev) {
       if (ev.lat == null || enInset(ev)) return;
-      var g = el('g', { class: 'pin', tabindex: '-1', 'data-id': ev.id }, gPins);
+      var g = el('g', { class: 'pin', tabindex: '-1', role: 'button', 'aria-label': fmtAnio(ev.anio) + ', ' + ev.titulo, 'data-id': ev.id }, gPins);
       var x = px(ev.lon), y = py(ev.lat);
       var a = el('circle', { cx: x, cy: y, r: 1, class: 'anillo' }, g);
       var c = el('circle', { cx: x, cy: y, r: 1, class: 'punto' }, g);

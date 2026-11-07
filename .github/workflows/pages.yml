@@ -25,3 +25,20 @@ jobs:
           path: site
       - id: despliegue
         uses: actions/deploy-pages@v4
+
+  # Versión sin conexión (ítem 2.14 del debate): ZIP del sitio en la publicación «sin-conexion».
+  # Se descomprime y se abre index.html: funciona sin internet (los colegios con mala conexión).
+  sin-conexion:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Empaquetar site/
+        run: cd site && zip -qr ../historia-de-chile.zip . -x "sw.js"
+      - name: Subir el ZIP a la publicación «sin-conexion»
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view sin-conexion >/dev/null 2>&1 || gh release create sin-conexion --title "Historia de Chile sin conexión" --notes "Descarga historia-de-chile.zip, descomprímelo y abre index.html con doble clic. Funciona sin internet. Se actualiza con cada cambio del sitio."
+          gh release upload sin-conexion historia-de-chile.zip --clobber

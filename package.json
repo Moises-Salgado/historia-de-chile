@@ -5,10 +5,19 @@
   "description": "Historia de Chile: línea de tiempo y mapa histórico para niños, adultos y maestros. Contenido en un vault de Obsidian.",
   "type": "module",
   "scripts": {
+    "360": "node scripts/build-360.mjs",
     "build": "node scripts/build-data.mjs",
     "geo": "node scripts/build-geo.mjs",
     "start": "npx -y http-server site -p 5173 -a 127.0.0.1 -c-1",
     "img": "node scripts/build-img.mjs",
-    "video": "node scripts/build-video.mjs"
+    "video": "node scripts/build-video.mjs",
+    "musica": "node scripts/musica-relato.mjs",
+    "relato": "node relatos/build-relato.mjs",
+    "webp": "node scripts/build-webp.mjs",
+    "og": "node scripts/build-og.mjs"
+  },
+  "devDependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0"
   }
 }

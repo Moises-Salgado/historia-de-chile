@@ -5,10 +5,12 @@ orden: 6
 inicio: 1831
 fin: 1860
 rango: 1831–1861
+gancho: "Tres presidentes en treinta años: orden, plata de Chañarcillo y destierros"
+revisado: pendiente
 tags:
   - periodo
-imagen: "Diego Portales - Galeria nacional.jpg"
-imagen_pie: "Diego Portales, figura central del orden conservador. Retrato de Narcisse Desmadryl, Galería Nacional, 1854."
+imagen: "LlegadaDelPresidentePrietoALaPampa.jpg"
+imagen_pie: "Llegada del presidente Prieto a las fiestas patrias de la Pampilla, en Santiago. Pintura de Johann Moritz Rugendas, 1837."
 ---
 # República Conservadora
 

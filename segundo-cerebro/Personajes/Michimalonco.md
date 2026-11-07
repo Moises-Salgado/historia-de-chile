@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Michimalonco
 vida: siglo XVI
 rol: Lonko del valle del Aconcagua, líder de la resistencia indígena contra la conquista

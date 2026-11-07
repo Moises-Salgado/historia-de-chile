@@ -5,10 +5,12 @@ orden: 10
 inicio: 1973
 fin: 1989
 rango: 1973–1990
+gancho: "Casi diecisiete años sin Congreso, con desaparecidos, exilio y un nuevo modelo económico"
+revisado: pendiente
 tags:
   - periodo
-imagen: "BNC-Junta Militar Chile 1973.jpg"
-imagen_pie: "La Junta Militar que tomó el poder en 1973: Mendoza, Merino, Pinochet y Leigh. Biblioteca del Congreso Nacional."
+imagen: "¿Dónde están? Manifestación de familiares de detenidos desaparecidos.jpg"
+imagen_pie: "«¿Dónde están?»: familiares de detenidos desaparecidos pegan carteles en Londres 38, ex centro de detención y tortura. Santiago, enero de 1990. Foto de Paulo Slachevsky."
 ---
 # Dictadura militar
 

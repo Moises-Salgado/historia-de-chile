@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Patricio Aylwin
 vida: 1918–2016
 rol: Abogado y político democratacristiano, presidente de Chile (1990–1994)

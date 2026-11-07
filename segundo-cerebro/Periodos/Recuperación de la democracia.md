@@ -5,10 +5,12 @@ orden: 11
 inicio: 1990
 fin: 2026
 rango: 1990–hoy
+gancho: "La democracia volvió con Pinochet al mando del Ejército y una Constitución heredada"
+revisado: pendiente
 tags:
   - periodo
-imagen: "Presidente Patricio Aylwin Azocar, Fotografia oficial.jpg"
-imagen_pie: "Patricio Aylwin, primer presidente tras la dictadura (1990-1994). Fotografía oficial, Biblioteca del Congreso Nacional."
+imagen: "Concentración masiva en apoyo al No.jpg"
+imagen_pie: "Concentración por el No en la campaña del plebiscito de 1988, que abrió paso a la democracia. Biblioteca del Congreso Nacional."
 ---
 # Recuperación de la democracia
 

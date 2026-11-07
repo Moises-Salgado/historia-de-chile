@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: mujer
 nombre: Inés de Suárez
 vida: c. 1507–c. 1580
 rol: Conquistadora española, participó en la fundación de Santiago

@@ -5,6 +5,8 @@ orden: 4
 inicio: 1810
 fin: 1823
 rango: 1810–1823
+gancho: "Empezó gobernando en nombre de un rey cautivo y terminó declarando la independencia"
+revisado: pendiente
 tags:
   - periodo
 imagen: "Abrazo de Maipú Pedro Subercaseaux.jpg"

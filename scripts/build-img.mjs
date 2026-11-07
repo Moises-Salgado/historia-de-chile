@@ -113,6 +113,17 @@ for (const c of CARPETAS) {
   }
 }
 
+// Relatos: lista «imagenes:» en el frontmatter (escenas del video narrado).
+const dirRel = path.join(VAULT, 'Relatos');
+if (fs.existsSync(dirRel)) for (const f of fs.readdirSync(dirRel).filter((x) => x.endsWith('.md'))) {
+  const fm = (fs.readFileSync(path.join(dirRel, f), 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/) || [, ''])[1];
+  const bloque = (fm.match(/^imagenes:\s*\r?\n((?:\s+-\s+.+\r?\n?)+)/m) || [, ''])[1];
+  for (const l of bloque.split(/\r?\n/)) {
+    const a = l.replace(/^\s+-\s+/, '').trim().replace(/^["']|["']$/g, '').replace(/^(File|Archivo):/i, '');
+    if (a && !pedidos.some((p) => p.archivo === a && p.carpeta !== 'Personajes')) pedidos.push({ nota: 'Relato · ' + f.slice(0, -3), carpeta: 'Relatos', archivo: a, pie: '' });
+  }
+}
+
 const usados = new Set(), rechazos = [];
 let nuevas = 0;
 const claveDe = (p) => slug(p.archivo) + ((ANCHO[p.carpeta] || 960) !== 960 ? '-r' : '');

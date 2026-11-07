@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: José Manuel Balmaceda
 vida: 1840–1891
 rol: Presidente de Chile (1886–1891)

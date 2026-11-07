@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Luis Emilio Recabarren
 vida: 1876–1924
 rol: Dirigente obrero, periodista y fundador del Partido Obrero Socialista

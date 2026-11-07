@@ -1,0 +1,1737 @@
+{
+  "Abdicación de O'Higgins": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 03",
+      "texto": "Describir algunos hitos y procesos de la organización de la república … los desafíos que implicó organizar en Chile una nueva forma de gobierno",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-03",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 19",
+      "texto": "Evaluar las principales transformaciones y desafíos que generó la independencia de Chile, como la conformación de un orden republicano",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-19",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 08",
+      "texto": "Analizar el periodo de formación de la República de Chile como un proceso que implicó el enfrentamiento de distintas visiones",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-08",
+      "tipo": "directa"
+    }
+  ],
+  "Abolición de la esclavitud": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 03",
+      "texto": "Describir algunos hitos y procesos de la organización de la república … los desafíos que implicó organizar en Chile una nueva forma de gobierno",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-03",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 11",
+      "texto": "Analizar el proceso de formación de la sociedad colonial americana considerando elementos como la evangelización, la esclavitud",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-11",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 01",
+      "texto": "Explicar las ideas republicanas y liberales y su relación con las transformaciones políticas y económicas de América y de Europa … el movimiento abolicionista",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-01",
+      "tipo": "directa"
+    }
+  ],
+  "Alexander Selkirk en Juan Fernández": [],
+  "Asentamiento de Monte Verde": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "7° básico",
+      "codigo": "HI07 OA 01",
+      "texto": "Explicar el proceso de hominización … su dispersión en el planeta y las distintas teorías del poblamiento americano",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/7-basico/hi07-oa-01",
+      "tipo": "directa"
+    }
+  ],
+  "Astronomía en el norte de Chile": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 11",
+      "texto": "Analizar y dar ejemplos de diversas maneras … el trabajo de las personas, sus ideas y proyectos potencian y dan valor a los recursos naturales",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-11",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 12",
+      "texto": "Comparar diversos ambientes naturales en Chile (desértico, altiplánico … considerando como criterios las oportunidades y las dificultades que presentan",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-12",
+      "tipo": "tematica"
+    }
+  ],
+  "Batalla de Lircay": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 03",
+      "texto": "Describir algunos hitos y procesos de la organización de la república … el surgimiento de grupos con diferentes ideas políticas (conservadores y liberales)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-03",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 19",
+      "texto": "Evaluar las principales transformaciones y desafíos que generó la independencia de Chile, como la conformación de un orden republicano",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-19",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 08",
+      "texto": "Analizar el periodo de formación de la República de Chile como un proceso que implicó el enfrentamiento de distintas visiones",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-08",
+      "tipo": "directa"
+    }
+  ],
+  "Batalla de Maipú": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile … las batallas de Rancagua, Chacabuco y Maipú, y la Declaración de la Independencia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "Batalla de Tucapel": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 02",
+      "texto": "Describir el proceso de conquista de América y de Chile … algunas expediciones y conflictos bélicos, y la fundación de ciudades",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 07",
+      "texto": "Explicar y dar ejemplos de las distintas formas en las que españoles y mapuches se relacionaron … resistencia mapuche y guerra de Arauco",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-07",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 12",
+      "texto": "… las formas de convivencia y los tipos de conflicto que surgen entre españoles, mestizos y mapuches como resultado del fracaso de la conquista de Arauco",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-12",
+      "tipo": "directa"
+    }
+  ],
+  "Centenario de la Independencia": [
+    {
+      "nivel": "1° básico",
+      "codigo": "HI01 OA 05",
+      "texto": "Reconocer los símbolos representativos de Chile … conmemoraciones nacionales (como Fiestas Patrias, Día del Descubrimiento de dos mundos y Combate Naval de Iquique)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/1-basico/hi01-oa-05",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 06",
+      "texto": "Caracterizar los principales aspectos que definieron el período de riqueza aportada por la explotación del salitre … el inicio de la \"cuestión social\"",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-06",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 17",
+      "texto": "Caracterizar las principales transformaciones generadas por las riquezas del salitre … de las inversiones públicas en infraestructura y en educación",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-17",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 18",
+      "texto": "Analizar las principales transformaciones de la sociedad en el cambio de siglo, considerando los factores que originaron la cuestión social",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-18",
+      "tipo": "tematica"
+    }
+  ],
+  "Colonización alemana en Llanquihue": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 04",
+      "texto": "Reconocer y dar ejemplos de la influencia y aportes de inmigrantes de distintas naciones europeas … a la diversidad de la sociedad chilena",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-04",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX, considerando colonizaciones europeas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 13",
+      "texto": "Describir el proceso de ocupación de Valdivia, Llanquihue, Chiloé y el estrecho de Magallanes … destacando el rol de la inmigración europea",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-13",
+      "tipo": "directa"
+    }
+  ],
+  "Colonización de Aysén": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 12",
+      "texto": "Comparar diversos ambientes naturales en Chile … patagónico y polar), considerando como criterios las oportunidades y las dificultades que presentan",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-12",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 21",
+      "texto": "Analizar y evaluar problemas asociados a la región en Chile -como los grados de conexión y de aislamiento",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-21",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 12",
+      "texto": "Describir los procesos de exploración y reconocimiento del territorio que impulsó el Estado … delimitar sus fronteras",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-12",
+      "tipo": "tematica"
+    }
+  ],
+  "Combate Naval de Iquique": [
+    {
+      "nivel": "1° básico",
+      "codigo": "HI01 OA 05",
+      "texto": "Reconocer los símbolos representativos de Chile … conmemoraciones nacionales (como Fiestas Patrias, Día del Descubrimiento de dos mundos y Combate Naval de Iquique)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/1-basico/hi01-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la Guerra del Pacífico y diversos conflictos bélicos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 15",
+      "texto": "Analizar la guerra del Pacífico considerando el conflicto económico en torno al salitre, el impacto de la guerra en múltiples ámbitos de la sociedad chilena",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-15",
+      "tipo": "directa"
+    }
+  ],
+  "Conflicto del Beagle": [
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 24",
+      "texto": "Analizar y debatir sobre los desafíos pendientes para el país … y fortalecer la relación con los países vecinos",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-24",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° o 4° medio (Mundo global)",
+      "codigo": "FG-MGLO-3y4-OAC-06",
+      "texto": "Analizar algunos conflictos internacionales que involucran a Estados nacionales, sociedades o grupos, explicando sus contextos y posibilidades de resolución",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/mundo-global/3-medio-fg/fg-mglo-3y4-oac-06",
+      "tipo": "tematica"
+    }
+  ],
+  "Constitución de 1833": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 03",
+      "texto": "Describir algunos hitos y procesos de la organización de la república … las características de la Constitución de 1833",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-03",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 08",
+      "texto": "Analizar el periodo de formación de la República de Chile … la relativa estabilidad política alcanzada a partir de la Constitución de 1833",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-08",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 09",
+      "texto": "Caracterizar la consolidación de la República en Chile, considerando la defensa del territorio nacional, el voto censitario",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-09",
+      "tipo": "tematica"
+    }
+  ],
+  "Constitución de 1925": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 16",
+      "texto": "Reconocer que la Constitución Política de Chile establece la organización política del país y garantiza los derechos y las libertades de las personas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-16",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 05",
+      "texto": "Analizar la crisis del sistema político del periodo parlamentario y la posterior reconstrucción de la institucionalidad por medio de la Constitución de 1925",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 23",
+      "texto": "Explicar los elementos que constituyen un Estado de derecho, como la Constitución … y debatir sobre su perfeccionamiento, defensa y riesgos a los que está expuesto",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-23",
+      "tipo": "tematica"
+    }
+  ],
+  "Constitución de 1980": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 08",
+      "texto": "Comparar diferentes visiones sobre el quiebre de la democracia en Chile, el régimen o dictadura militar y el proceso de recuperación de la democracia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-08",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 16",
+      "texto": "Reconocer que la Constitución Política de Chile establece la organización política del país y garantiza los derechos y las libertades de las personas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-16",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 18",
+      "texto": "Analizar la nueva institucionalidad política creada por la Constitución de 1980, considerando los artículos transitorios",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-18",
+      "tipo": "directa"
+    }
+  ],
+  "Cruce de los Andes y Batalla de Chacabuco": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 01",
+      "texto": "Explicar los múltiples antecedentes de la independencia de las colonias americanas y reconocer que la independencia de Chile se enmarca en un proceso continental",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile … las batallas de Rancagua, Chacabuco y Maipú, y la Declaración de la Independencia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "Cultura Diaguita": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 10",
+      "texto": "Ubicar en mapas las zonas habitadas por algunos pueblos originarios de Chile, distinguiendo zonas norte, centro y sur",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-10",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    }
+  ],
+  "Desastre de Curalaba": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 02",
+      "texto": "Describir el proceso de conquista de América y de Chile … algunas expediciones y conflictos bélicos, y la fundación de ciudades",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 07",
+      "texto": "Explicar y dar ejemplos de las distintas formas en las que españoles y mapuches se relacionaron … resistencia mapuche y guerra de Arauco",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-07",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 12",
+      "texto": "… las formas de convivencia y los tipos de conflicto que surgen entre españoles, mestizos y mapuches como resultado del fracaso de la conquista de Arauco",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-12",
+      "tipo": "directa"
+    }
+  ],
+  "Desastre de Rancagua": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile … las batallas de Rancagua, Chacabuco y Maipú, y la Declaración de la Independencia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "Elecciones presidenciales de 2025": [
+    {
+      "nivel": "4° básico",
+      "codigo": "HI04 OA 11",
+      "texto": "Distinguir algunos actores de la organización política y democrática de Chile, como Presidente … cómo son nombrados o elegidos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/4-basico/hi04-oa-11",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 15",
+      "texto": "Explicar algunos elementos fundamentales de la organización democrática de Chile … la representación mediante cargos de elección popular (concejales, alcaldes, diputados, senadores y Presidente)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-15",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "4° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-4M-OAC-01",
+      "texto": "Evaluar las características y el funcionamiento de la institucionalidad democrática, las formas de representación y su impacto en la distribución del poder en la sociedad",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-4-medio/4-medio-fg/fg-eciu-4m-oac-01",
+      "tipo": "tematica"
+    }
+  ],
+  "Elección de Salvador Allende": [
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 08",
+      "texto": "Analizar la Guerra Fría como la confrontación ideológica de dos proyectos antagónicos que … se manifestó en distintos escenarios locales",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-08",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 10",
+      "texto": "Caracterizar el contexto de movilización social en América Latina como un escenario de tensión permanente entre revolución y reforma",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-10",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 13",
+      "texto": "Analizar el Chile de la década de 1960 … y de la Unidad Popular (\"vía chilena al socialismo\")",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-13",
+      "tipo": "directa"
+    }
+  ],
+  "Estallido social": [
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 24",
+      "texto": "Analizar y debatir sobre los desafíos pendientes para el país, por ejemplo, reducir la pobreza y la desigualdad",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-24",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-3M-OAC-03",
+      "texto": "Reflexionar personal y grupalmente sobre riesgos para la democracia en Chile y el mundo, tales como el fenómeno de la desafección política, la desigualdad",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-3-medio/3-medio-fg/fg-eciu-3m-oac-03",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° o 4° medio (Comprensión histórica del presente, electivo HC)",
+      "codigo": "HI-CHDP-3y4-OAC-01",
+      "texto": "Analizar diversas perspectivas historiográficas sobre cambios recientes en la sociedad chilena … la inclusión creciente de nuevos grupos y movimientos sociales",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/comprension-historica-presente/3-medio-hc/hi-chdp-3y4-oac-01",
+      "tipo": "tematica"
+    }
+  ],
+  "Expansión inca en Chile": [
+    {
+      "nivel": "4° básico",
+      "codigo": "HI04 OA 03",
+      "texto": "Describir la civilización inca, considerando ubicación geográfica, organización política, sistema de caminos y correos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/4-basico/hi04-oa-03",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "7° básico",
+      "codigo": "HI07 OA 14",
+      "texto": "Caracterizar el Imperio Inca, y analizar los factores que posibilitaron la dominación y unidad del Imperio … sometimiento de pueblos y lengua oficial",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/7-basico/hi07-oa-14",
+      "tipo": "directa"
+    }
+  ],
+  "Expedición de Diego de Almagro": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 02",
+      "texto": "Describir el proceso de conquista de América y de Chile … algunas expediciones y conflictos bélicos, y la fundación de ciudades",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 04",
+      "texto": "Investigar sobre los efectos de la conquista sobre los pueblos indígenas americanos, utilizando fuentes dadas por el docente",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-04",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 06",
+      "texto": "Analizar los factores que explican la rapidez de la conquista y la caída de los grandes imperios americanos",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-06",
+      "tipo": "tematica"
+    }
+  ],
+  "Fuerte Bulnes y el Estrecho de Magallanes": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … entre otros factores",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 12",
+      "texto": "Describir los procesos de exploración y reconocimiento del territorio que impulsó el Estado … delimitar sus fronteras",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-12",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 13",
+      "texto": "Describir el proceso de ocupación de Valdivia, Llanquihue, Chiloé y el estrecho de Magallanes … destacando el rol de la inmigración europea",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-13",
+      "tipo": "directa"
+    }
+  ],
+  "Fuertes de Valdivia": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 06",
+      "texto": "Explicar aspectos centrales de la Colonia, como la dependencia de las colonias americanas de la metrópoli, el rol de la Iglesia católica",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-06",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 08",
+      "texto": "Identificar, en su entorno o en fotografías, elementos del patrimonio colonial de Chile que siguen presentes hoy, como edificios, obras de arte y costumbres",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-08",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 10",
+      "texto": "Explicar la importancia de los mercados americanos en el comercio atlántico de los siglos XVII y XVIII, considerando el monopolio comercial",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-10",
+      "tipo": "tematica"
+    }
+  ],
+  "Fundación de la Universidad de Chile": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 04",
+      "texto": "Investigar sobre algunos aspectos culturales del siglo XIX, como los avances en educación y la fundación de instituciones … Andrés Bello",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-04",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 11",
+      "texto": "Analizar cómo el desarrollo … del sistema educacional, contribuyeron a expandir y profundizar la idea de nación durante el siglo XIX en Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-11",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 12",
+      "texto": "Describir los procesos de exploración y reconocimiento del territorio que impulsó el Estado … e instituciones como la Universidad de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-12",
+      "tipo": "directa"
+    }
+  ],
+  "Fundación de Santiago": [
+    {
+      "nivel": "1° básico",
+      "codigo": "HI01 OA 07",
+      "texto": "Conocer sobre la vida de hombres y mujeres que han contribuido a la sociedad chilena … los fundadores de las ciudades, los exploradores",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/1-basico/hi01-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 02",
+      "texto": "Describir el proceso de conquista de América y de Chile … algunas expediciones y conflictos bélicos, y la fundación de ciudades",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 08",
+      "texto": "Analizar el rol de la ciudad en la administración del territorio del Imperio español",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-08",
+      "tipo": "tematica"
+    }
+  ],
+  "Gabriela Mistral, Premio Nobel": [
+    {
+      "nivel": "1° básico",
+      "codigo": "HI01 OA 07",
+      "texto": "Conocer sobre la vida de hombres y mujeres que han contribuido a la sociedad chilena … los artistas y los grandes poetas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/1-basico/hi01-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 07",
+      "texto": "Explicar y dar ejemplos de la progresiva democratización de la sociedad durante el siglo XX … la participación de la mujer en la vida pública",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 07",
+      "texto": "Evaluar cómo la participación de nuevos actores sociales … contribuyeron a la democratización de la sociedad chilena … la incorporación de las mujeres a la ciudadanía política",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-07",
+      "tipo": "tematica"
+    }
+  ],
+  "Golpe de Estado de 1973": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 08",
+      "texto": "Comparar diferentes visiones sobre el quiebre de la democracia en Chile, el régimen o dictadura militar y el proceso de recuperación de la democracia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-08",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 10",
+      "texto": "Caracterizar el contexto de movilización social en América Latina … los golpes de Estado, las dictaduras militares",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-10",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 14",
+      "texto": "Analizar el ambiente de crisis a inicios de la década del 70, considerando aspectos como la polarización social y política",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-14",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 15",
+      "texto": "Analizar y comparar críticamente distintas interpretaciones historiográficas sobre el golpe de Estado de 1973 y el quiebre de la democracia",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-15",
+      "tipo": "directa"
+    }
+  ],
+  "Guerra Civil de 1891": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 03",
+      "texto": "Describir algunos hitos y procesos … el impacto de las reformas realizadas por los liberales en la segunda mitad del siglo XIX",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-03",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 09",
+      "texto": "Caracterizar la consolidación de la República en Chile … el debate sobre las atribuciones del Ejecutivo y del Legislativo",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-09",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 16",
+      "texto": "Analizar el orden político liberal y parlamentario de la segunda mitad del siglo XIX … el aumento de las facultades del poder legislativo",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "Guerra contra la Confederación Perú-Boliviana": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la Guerra del Pacífico y diversos conflictos bélicos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 03",
+      "texto": "Analizar cómo durante el siglo XIX la geografía política de América Latina y de Europa se reorganizó con el surgimiento del Estado-nación",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-03",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 09",
+      "texto": "Caracterizar la consolidación de la República en Chile, considerando la defensa del territorio nacional, el voto censitario",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-09",
+      "tipo": "directa"
+    }
+  ],
+  "Incorporación de Chiloé": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … entre otros factores",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 19",
+      "texto": "Evaluar las principales transformaciones y desafíos que generó la independencia de Chile … y la formación de un Estado nacional",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-19",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 13",
+      "texto": "Describir el proceso de ocupación de Valdivia, Llanquihue, Chiloé y el estrecho de Magallanes … destacando el rol de la inmigración europea",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-13",
+      "tipo": "directa"
+    }
+  ],
+  "Incorporación de Rapa Nui": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la incorporación de Isla de Pascua",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 10",
+      "texto": "Identificar elementos constitutivos del territorio nacional, considerando la localización de Chile en el mundo y su carácter tricontinental",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-10",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    }
+  ],
+  "Inicio de la Guerra del Pacífico": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la Guerra del Pacífico y diversos conflictos bélicos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 06",
+      "texto": "Caracterizar los principales aspectos que definieron el período de riqueza aportada por la explotación del salitre … el inicio de la \"cuestión social\"",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-06",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 15",
+      "texto": "Analizar la guerra del Pacífico considerando el conflicto económico en torno al salitre, el impacto de la guerra en múltiples ámbitos de la sociedad chilena",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-15",
+      "tipo": "directa"
+    }
+  ],
+  "La Araucana de Alonso de Ercilla": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 07",
+      "texto": "Explicar y dar ejemplos de las distintas formas en las que españoles y mapuches se relacionaron … resistencia mapuche y guerra de Arauco",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-07",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 07",
+      "texto": "Analizar y evaluar el impacto de la conquista de América en la cultura europea … el desafío de representar una nueva realidad",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 12",
+      "texto": "… las formas de convivencia y los tipos de conflicto que surgen entre españoles, mestizos y mapuches como resultado del fracaso de la conquista de Arauco",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-12",
+      "tipo": "tematica"
+    }
+  ],
+  "La cuestión social": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 06",
+      "texto": "Caracterizar los principales aspectos que definieron el período de riqueza aportada por la explotación del salitre … el inicio de la \"cuestión social\"",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-06",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 18",
+      "texto": "Analizar las principales transformaciones de la sociedad en el cambio de siglo, considerando los factores que originaron la cuestión social",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-18",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 23",
+      "texto": "Explicar que los problemas de una sociedad generan distintas respuestas políticas, ejemplificando mediante las posturas que surgieron frente a la \"cuestión social\"",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-23",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "4° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-4M-OAC-04",
+      "texto": "Comprender la importancia de los derechos laborales en Chile … y los aportes de los movimientos y organizaciones sociales a su fortalecimiento",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-4-medio/4-medio-fg/fg-eciu-4m-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "La Nueva Canción Chilena": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 05",
+      "texto": "Reconocer diversas expresiones del patrimonio cultural del país y de su región, tales como manifestaciones artísticas, tradiciones folclóricas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-05",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 08",
+      "texto": "Analizar la Guerra Fría … y dar ejemplos de cómo afectó diversas esferas, como la política, la cultura, el deporte y las ciencias",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-08",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 13",
+      "texto": "Analizar el Chile de la década de 1960 como un escenario caracterizado por la organización y la movilización de nuevos actores sociales (por ejemplo, jóvenes",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-13",
+      "tipo": "tematica"
+    }
+  ],
+  "La Patria Vieja": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile, considerando actores y bandos que se enfrentaron … la elección del primer Congreso Nacional",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 15",
+      "texto": "Analizar cómo las ideas ilustradas se manifestaron en los procesos revolucionarios … las independencias de las colonias españolas en Latinoamérica",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-15",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "La época del salitre": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 06",
+      "texto": "Caracterizar los principales aspectos que definieron el período de riqueza aportada por la explotación del salitre … el inicio de la \"cuestión social\"",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-06",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 10",
+      "texto": "Explicar que Chile durante el siglo XIX se insertó … en los mercados internacionales mediante la explotación y exportación de recursos naturales",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-10",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 17",
+      "texto": "Caracterizar las principales transformaciones generadas por las riquezas del salitre, reconociendo el crecimiento del ingreso fiscal",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-17",
+      "tipo": "directa"
+    }
+  ],
+  "Las momias Chinchorro": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 05",
+      "texto": "Reconocer diversas expresiones del patrimonio cultural del país y de su región, tales como … monumentos y sitios históricos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-05",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 10",
+      "texto": "Ubicar en mapas las zonas habitadas por algunos pueblos originarios de Chile, distinguiendo zonas norte, centro y sur",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-10",
+      "tipo": "directa"
+    }
+  ],
+  "Ley de Instrucción Primaria Obligatoria": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 07",
+      "texto": "Explicar y dar ejemplos de la progresiva democratización de la sociedad durante el siglo XX … el acceso a la educación",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-07",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 17",
+      "texto": "Caracterizar las principales transformaciones generadas por las riquezas del salitre … de las inversiones públicas en infraestructura y en educación",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-17",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 18",
+      "texto": "Analizar las principales transformaciones de la sociedad en el cambio de siglo … el creciente protagonismo de los sectores medios",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-18",
+      "tipo": "tematica"
+    }
+  ],
+  "Ley Indígena": [
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 21",
+      "texto": "Analizar la sociedad chilena posterior a la recuperación de la democracia … y la demanda de derechos de grupos históricamente discriminados",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-21",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "3° o 4° medio (Chile y la región latinoamericana)",
+      "codigo": "FG-CHLA-3y4-OAC-04",
+      "texto": "Analizar … el presente de distintos pueblos indígenas de Chile y Latinoamérica … los avances y desafíos en su relación con los Estados nacionales",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/chile-region-latinoamericana/3-medio-fg/fg-chla-3y4-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Los jesuitas llegan a Chiloé": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 06",
+      "texto": "Explicar aspectos centrales de la Colonia, como la dependencia de las colonias americanas de la metrópoli, el rol de la Iglesia católica",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-06",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 08",
+      "texto": "Identificar, en su entorno o en fotografías, elementos del patrimonio colonial de Chile que siguen presentes hoy, como edificios, obras de arte y costumbres",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-08",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 11",
+      "texto": "Analizar el proceso de formación de la sociedad colonial americana considerando elementos como la evangelización, la esclavitud",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-11",
+      "tipo": "tematica"
+    }
+  ],
+  "Los oasis de San Pedro de Atacama": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 11",
+      "texto": "Relacionar las principales características geográficas (disponibilidad de agua, temperatura y vegetación) de las zonas habitadas por algunos pueblos originarios de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-11",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    }
+  ],
+  "Magallanes cruza el estrecho": [
+    {
+      "nivel": "1° básico",
+      "codigo": "HI01 OA 07",
+      "texto": "Conocer sobre la vida de hombres y mujeres que han contribuido a la sociedad chilena … los fundadores de las ciudades, los exploradores",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/1-basico/hi01-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 01",
+      "texto": "Explicar los viajes de descubrimiento de Cristóbal Colón, de Hernando de Magallanes y de algún otro explorador, considerando sus objetivos, las rutas recorridas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 07",
+      "texto": "Analizar y evaluar el impacto de la conquista de América en la cultura europea, considerando la ampliación del mundo conocido",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-07",
+      "tipo": "tematica"
+    }
+  ],
+  "Mapuche, la gente de la tierra": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 02",
+      "texto": "Comparar el modo de vida y expresiones culturales de algunos pueblos indígenas presentes en Chile actual (como mapuche, aimara o rapa nui)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    }
+  ],
+  "Matanza de la Escuela Santa María de Iquique": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 06",
+      "texto": "Caracterizar los principales aspectos que definieron el período de riqueza aportada por la explotación del salitre … el inicio de la \"cuestión social\"",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-06",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 18",
+      "texto": "Analizar las principales transformaciones de la sociedad en el cambio de siglo … las nuevas formas de lucha obrera",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-18",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "4° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-4M-OAC-04",
+      "texto": "Comprender la importancia de los derechos laborales en Chile … y los aportes de los movimientos y organizaciones sociales a su fortalecimiento",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-4-medio/4-medio-fg/fg-eciu-4m-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Michelle Bachelet, primera presidenta": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 07",
+      "texto": "Explicar y dar ejemplos de la progresiva democratización de la sociedad durante el siglo XX … la participación de la mujer en la vida pública",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 21",
+      "texto": "Analizar la sociedad chilena posterior a la recuperación de la democracia … y la demanda de derechos de grupos históricamente discriminados",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-21",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "4° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-4M-OAC-05",
+      "texto": "Relacionar de manera fundamentada los conceptos libertad, igualdad y solidaridad, con desafíos y problemas de la democracia como … la equidad de género",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-4-medio/4-medio-fg/fg-eciu-4m-oac-05",
+      "tipo": "tematica"
+    }
+  ],
+  "Migración del siglo XXI": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 04",
+      "texto": "Reconocer y dar ejemplos de la influencia y aportes de inmigrantes … latinoamericanas a la diversidad de la sociedad chilena, a lo largo de su historia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-04",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 25",
+      "texto": "Reconocer la diversidad inherente a las sociedades como manifestación de la libertad y de la dignidad humana … sea por raza o etnia, nacionalidad",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-25",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° o 4° medio (Chile y la región latinoamericana)",
+      "codigo": "FG-CHLA-3y4-OAC-01",
+      "texto": "Analizar procesos sociales y culturales recientes de Chile y América Latina tales como migraciones, cambios demográficos y urbanización",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/chile-region-latinoamericana/3-medio-fg/fg-chla-3y4-oac-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "3° o 4° medio (Mundo global)",
+      "codigo": "FG-MGLO-3y4-OAC-01",
+      "texto": "Analizar procesos migratorios contemporáneos en distintas regiones del mundo, considerando múltiples causas, principales características, impactos en la sociedad de origen y de destino",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/mundo-global/3-medio-fg/fg-mglo-3y4-oac-01",
+      "tipo": "directa"
+    }
+  ],
+  "Modelo económico neoliberal": [
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 11",
+      "texto": "Analizar los principales procesos que marcaron el fin de la Guerra Fría … el auge del neoliberalismo y la aceleración de la globalización",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-11",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 17",
+      "texto": "Caracterizar el modelo económico neoliberal implementado en Chile durante el régimen o dictadura militar, considerando aspectos como la transformación del rol del Estado",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-17",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "3° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-3M-OAC-04",
+      "texto": "Evaluar las relaciones entre el Estado y el mercado, considerando temas como sueldos justos, productividad, carga tributaria",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-3-medio/3-medio-fg/fg-eciu-3m-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Movimiento mapuche del siglo XX": [
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 14",
+      "texto": "Explicar que la ocupación de la Araucanía fue una política de Estado … la repartición de tierras y la reubicación de la población mapuche en reducciones",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-14",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "3° o 4° medio (Chile y la región latinoamericana)",
+      "codigo": "FG-CHLA-3y4-OAC-04",
+      "texto": "Analizar … el presente de distintos pueblos indígenas de Chile y Latinoamérica … los avances y desafíos en su relación con los Estados nacionales",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/chile-region-latinoamericana/3-medio-fg/fg-chla-3y4-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Nacionalización del cobre": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 10",
+      "texto": "Reconocer y ubicar en mapas recursos naturales significativos de Chile, como cobre, hierro, recursos marítimos y forestales",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-10",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 13",
+      "texto": "Analizar el Chile de la década de 1960 … y de la Unidad Popular (\"vía chilena al socialismo\")",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-13",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 14",
+      "texto": "Analizar el ambiente de crisis a inicios de la década del 70 … los conflictos en torno a la reforma agraria, las estatizaciones y expropiaciones",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-14",
+      "tipo": "directa"
+    }
+  ],
+  "Ocupación de la Araucanía": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la ocupación de la Araucanía",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 14",
+      "texto": "Explicar que la ocupación de la Araucanía fue una política de Estado que afectó profundamente a la sociedad mapuche",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-14",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "tematica"
+    }
+  ],
+  "Ocupación de Tierra del Fuego y genocidio selk'nam": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … entre otros factores",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 13",
+      "texto": "Describir el proceso de ocupación de Valdivia, Llanquihue, Chiloé y el estrecho de Magallanes … las relaciones con los pueblos originarios que habitaban esos lugares",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-13",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "tematica"
+    }
+  ],
+  "Parlamento de Quilín": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 07",
+      "texto": "Explicar y dar ejemplos de las distintas formas en las que españoles y mapuches se relacionaron … vida fronteriza y sistema de parlamentos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-07",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 12",
+      "texto": "Analizar y evaluar las formas de convivencia y los tipos de conflicto … el consiguiente desarrollo de una sociedad de frontera durante la Colonia en Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-12",
+      "tipo": "directa"
+    }
+  ],
+  "Plebiscito de 1988": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 08",
+      "texto": "Comparar diferentes visiones sobre el quiebre de la democracia en Chile, el régimen o dictadura militar y el proceso de recuperación de la democracia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-08",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 19",
+      "texto": "Explicar los factores que incidieron en el proceso de recuperación de la democracia durante la década de 1980 … el surgimiento de protestas",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-19",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 20",
+      "texto": "Analizar la transición a la democracia como un proceso marcado por el plebiscito de 1988, la búsqueda de acuerdos entre el gobierno y la oposición",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-20",
+      "tipo": "directa"
+    }
+  ],
+  "Primera Junta Nacional de Gobierno": [
+    {
+      "nivel": "1° básico",
+      "codigo": "HI01 OA 05",
+      "texto": "Reconocer los símbolos representativos de Chile … conmemoraciones nacionales (como Fiestas Patrias, Día del Descubrimiento de dos mundos y Combate Naval de Iquique)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/1-basico/hi01-oa-05",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 01",
+      "texto": "Explicar los múltiples antecedentes de la independencia de las colonias americanas y reconocer que la independencia de Chile se enmarca en un proceso continental",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile … el cabildo abierto de 1810 y la formación de la Primera Junta Nacional de Gobierno",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "Procesos constitucionales": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 16",
+      "texto": "Reconocer que la Constitución Política de Chile establece la organización política del país y garantiza los derechos y las libertades de las personas",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-16",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 18",
+      "texto": "Analizar la nueva institucionalidad política creada por la Constitución de 1980 … y evaluar cambios y continuidades con el presente",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-18",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 23",
+      "texto": "Explicar los elementos que constituyen un Estado de derecho, como la Constitución … y debatir sobre su perfeccionamiento, defensa y riesgos a los que está expuesto",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-23",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "4° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-4M-OAC-01",
+      "texto": "Evaluar las características y el funcionamiento de la institucionalidad democrática, las formas de representación y su impacto en la distribución del poder en la sociedad",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-4-medio/4-medio-fg/fg-eciu-4m-oac-01",
+      "tipo": "tematica"
+    }
+  ],
+  "Proclamación de la Independencia": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile … las batallas de Rancagua, Chacabuco y Maipú, y la Declaración de la Independencia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 19",
+      "texto": "Evaluar las principales transformaciones y desafíos que generó la independencia de Chile, como la conformación de un orden republicano",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-19",
+      "tipo": "tematica"
+    }
+  ],
+  "Pueblos canoeros y cazadores del extremo sur": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 11",
+      "texto": "Relacionar las principales características geográficas (disponibilidad de agua, temperatura y vegetación) de las zonas habitadas por algunos pueblos originarios de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-11",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    }
+  ],
+  "Rapa Nui y los moai": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 01",
+      "texto": "Describir los modos de vida de algunos pueblos originarios de Chile en el periodo precolombino, incluyendo ubicación geográfica, medio natural en que habitaban",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-01",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 02",
+      "texto": "Comparar el modo de vida y expresiones culturales de algunos pueblos indígenas presentes en Chile actual (como mapuche, aimara o rapa nui)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 05",
+      "texto": "Reconocer diversas expresiones del patrimonio cultural del país y de su región, tales como … monumentos y sitios históricos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-05",
+      "tipo": "tematica"
+    }
+  ],
+  "Rebelión de María Angata": [
+    {
+      "nivel": "2° básico",
+      "codigo": "HI02 OA 02",
+      "texto": "Comparar el modo de vida y expresiones culturales de algunos pueblos indígenas presentes en Chile actual (como mapuche, aimara o rapa nui)",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/2-basico/hi02-oa-02",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la incorporación de Isla de Pascua",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 24",
+      "texto": "Evaluar … las relaciones de conflicto y convivencia con los pueblos indígenas (aymara, colla, rapa nui, mapuche, quechua, atacameño, kawéskar, yagán, diaguita)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-24",
+      "tipo": "directa"
+    }
+  ],
+  "Reforma Agraria": [
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 13",
+      "texto": "Analizar el rol de la hacienda … el desarrollo de un sistema de inquilinaje … la proyección de estos elementos en los siglos XIX y XX",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-13",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 13",
+      "texto": "Analizar el Chile de la década de 1960 … las reformas estructurales y los proyectos excluyentes de la Democracia Cristiana (\"revolución en libertad\")",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-13",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 14",
+      "texto": "Analizar el ambiente de crisis a inicios de la década del 70 … los conflictos en torno a la reforma agraria, las estatizaciones y expropiaciones",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-14",
+      "tipo": "directa"
+    }
+  ],
+  "Refundación de Osorno": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 07",
+      "texto": "Explicar y dar ejemplos de las distintas formas en las que españoles y mapuches se relacionaron … vida fronteriza y sistema de parlamentos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-07",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 08",
+      "texto": "Analizar el rol de la ciudad en la administración del territorio del Imperio español",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-08",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 12",
+      "texto": "Analizar y evaluar las formas de convivencia y los tipos de conflicto … el consiguiente desarrollo de una sociedad de frontera durante la Colonia en Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-12",
+      "tipo": "tematica"
+    }
+  ],
+  "Rescate de los 33 mineros": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 10",
+      "texto": "Reconocer y ubicar en mapas recursos naturales significativos de Chile, como cobre, hierro, recursos marítimos y forestales",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-10",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "4° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-4M-OAC-04",
+      "texto": "Comprender la importancia de los derechos laborales en Chile … la evolución de los mecanismos institucionales que buscan resguardarlos",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-4-medio/4-medio-fg/fg-eciu-4m-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Retorno a la democracia": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 08",
+      "texto": "Comparar diferentes visiones sobre el quiebre de la democracia en Chile, el régimen o dictadura militar y el proceso de recuperación de la democracia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-08",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 20",
+      "texto": "Analizar la transición a la democracia como un proceso marcado por el plebiscito de 1988, la búsqueda de acuerdos entre el gobierno y la oposición",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-20",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 21",
+      "texto": "Analizar la sociedad chilena posterior a la recuperación de la democracia, considerando la estructura social",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-21",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "3° o 4° medio (Chile y la región latinoamericana)",
+      "codigo": "FG-CHLA-3y4-OAC-02",
+      "texto": "Explicar procesos comunes de los Estados latinoamericanos en la historia política reciente, incluyendo la relación entre el poder civil y las fuerzas armadas, transiciones",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/chile-region-latinoamericana/3-medio-fg/fg-chla-3y4-oac-02",
+      "tipo": "tematica"
+    }
+  ],
+  "Terremoto de 1647": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 05",
+      "texto": "Describir algunas dimensiones de la vida colonial en Chile, como organización de la sociedad y grupos sociales … costumbres y vida cotidiana, arte y celebraciones",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-05",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 12",
+      "texto": "… riesgos naturales que afectan a su localidad, como sismos, maremotos, inundaciones, derrumbes y volcanismo, e identificar formas en que la comunidad puede protegerse",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-12",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "7° básico",
+      "codigo": "HI07 OA 22",
+      "texto": "Reconocer y explicar formas en que la acción humana genera impactos en el medio y formas en las que el medio afecta a la población",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/7-basico/hi07-oa-22",
+      "tipo": "tematica"
+    }
+  ],
+  "Terremoto de Chillán y la CORFO": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 12",
+      "texto": "… riesgos naturales que afectan a su localidad, como sismos, maremotos, inundaciones, derrumbes y volcanismo, e identificar formas en que la comunidad puede protegerse",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-12",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 14",
+      "texto": "Explicar cómo han influido los desastres naturales en el desarrollo de Chile durante su historia reciente, dando ejemplos de nivel nacional y regional",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-14",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 06",
+      "texto": "Analizar las principales transformaciones … que siguieron a la Gran Depresión en Chile … promotor de la industrialización (ISI, CORFO)",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-06",
+      "tipo": "directa"
+    }
+  ],
+  "Terremoto de Valdivia": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 12",
+      "texto": "… riesgos naturales que afectan a su localidad, como sismos, maremotos, inundaciones, derrumbes y volcanismo, e identificar formas en que la comunidad puede protegerse",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-12",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 14",
+      "texto": "Explicar cómo han influido los desastres naturales en el desarrollo de Chile durante su historia reciente, dando ejemplos de nivel nacional y regional",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-14",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° o 4° medio (Mundo global)",
+      "codigo": "FG-MGLO-3y4-OAC-04",
+      "texto": "Analizar, por medio de la investigación, desastres socio-naturales, considerando amenazas naturales, el papel de la sociedad y el Estado en la prevención",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/mundo-global/3-medio-fg/fg-mglo-3y4-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Terremoto y tsunami del 27F": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 12",
+      "texto": "… riesgos naturales que afectan a su localidad, como sismos, maremotos, inundaciones, derrumbes y volcanismo, e identificar formas en que la comunidad puede protegerse",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-12",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 14",
+      "texto": "Explicar cómo han influido los desastres naturales en el desarrollo de Chile durante su historia reciente, dando ejemplos de nivel nacional y regional",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-14",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° o 4° medio (Mundo global)",
+      "codigo": "FG-MGLO-3y4-OAC-04",
+      "texto": "Analizar, por medio de la investigación, desastres socio-naturales, considerando amenazas naturales, el papel de la sociedad y el Estado en la prevención",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/mundo-global/3-medio-fg/fg-mglo-3y4-oac-04",
+      "tipo": "tematica"
+    }
+  ],
+  "Toma de Valdivia": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 02",
+      "texto": "Explicar el desarrollo del proceso de independencia de Chile … avances y retrocesos de la causa patriota",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-02",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "8° básico",
+      "codigo": "HI08 OA 16",
+      "texto": "Explicar la independencia de las colonias hispanoamericanas como un proceso continental … y analizar en este marco el proceso de Independencia de Chile",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/8-basico/hi08-oa-16",
+      "tipo": "directa"
+    }
+  ],
+  "Toma del Morro de Arica": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … la Guerra del Pacífico y diversos conflictos bélicos",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 15",
+      "texto": "Analizar la guerra del Pacífico considerando el conflicto económico en torno al salitre, el impacto de la guerra en múltiples ámbitos de la sociedad chilena",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-15",
+      "tipo": "directa"
+    }
+  ],
+  "Tratado de Límites con Argentina": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 05",
+      "texto": "Describir cómo se conformó el territorio de Chile durante el siglo XIX … entre otros factores",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-05",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 12",
+      "texto": "Describir los procesos de exploración y reconocimiento del territorio que impulsó el Estado … delimitar sus fronteras",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-12",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "1° medio",
+      "codigo": "HI1M OA 15",
+      "texto": "Analizar la guerra del Pacífico … y evaluar su proyección en las relaciones con los países vecinos",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/1-medio/hi1m-oa-15",
+      "tipo": "tematica"
+    }
+  ],
+  "Violaciones a los derechos humanos": [
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 08",
+      "texto": "Comparar diferentes visiones sobre el quiebre de la democracia en Chile, el régimen o dictadura militar y el proceso de recuperación de la democracia",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-08",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 16",
+      "texto": "Explicar que durante la dictadura militar se suprimió el Estado de derecho y se violaron sistemáticamente los derechos humanos",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-16",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 22",
+      "texto": "Analizar el concepto de derechos humanos, considerando características como su universalidad, indivisibilidad, interdependencia e imprescriptibilidad",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-22",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "3° medio (Educación Ciudadana)",
+      "codigo": "FG-ECIU-3M-OAC-05",
+      "texto": "Promover el reconocimiento, la defensa y exigibilidad de los derechos humanos en la vida cotidiana",
+      "url": "https://www.curriculumnacional.cl/curriculum/3o-4o-medio/educacion-ciudadana-3-medio/3-medio-fg/fg-eciu-3m-oac-05",
+      "tipo": "tematica"
+    }
+  ],
+  "Voto femenino": [
+    {
+      "nivel": "5° básico",
+      "codigo": "HI05 OA 14",
+      "texto": "… el Estado debe asegurar los derechos de las personas a participar en la vida pública … y el derecho a sufragio",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/5-basico/hi05-oa-14",
+      "tipo": "tematica"
+    },
+    {
+      "nivel": "6° básico",
+      "codigo": "HI06 OA 07",
+      "texto": "Explicar y dar ejemplos de la progresiva democratización de la sociedad durante el siglo XX, considerando el acceso creciente al voto",
+      "url": "https://www.curriculumnacional.cl/curriculum/1o-6o-basico/historia-geografia-ciencias-sociales/6-basico/hi06-oa-07",
+      "tipo": "directa"
+    },
+    {
+      "nivel": "2° medio",
+      "codigo": "HI2M OA 07",
+      "texto": "Evaluar cómo la participación de nuevos actores sociales … contribuyeron a la democratización de la sociedad chilena … la incorporación de las mujeres a la ciudadanía política",
+      "url": "https://www.curriculumnacional.cl/curriculum/7o-basico-2o-medio/historia-geografia-ciencias-sociales/2-medio/hi2m-oa-07",
+      "tipo": "directa"
+    }
+  ]
+}

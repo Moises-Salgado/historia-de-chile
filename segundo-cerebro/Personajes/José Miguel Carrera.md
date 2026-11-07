@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: José Miguel Carrera
 vida: 1785–1821
 rol: Líder patriota y gobernante durante la Patria Vieja

@@ -5,6 +5,8 @@ orden: 1
 inicio: -12500
 fin: 1519
 rango: c. 12.500 a.C.–1519
+gancho: "Más de catorce mil años de historia antes de que llegara un barco europeo"
+revisado: pendiente
 tags:
   - periodo
 imagen: "Petroglifo atacama2.jpg"

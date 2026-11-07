@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Eduardo Frei Montalva
 vida: 1911–1982
 rol: Abogado y político democratacristiano, presidente de Chile (1964–1970)

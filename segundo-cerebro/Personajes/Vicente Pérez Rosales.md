@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Vicente Pérez Rosales
 vida: 1807–1886
 rol: Agente de colonización, escritor y político

@@ -4,5 +4,8 @@ node_modules/
 segundo-cerebro/.obsidian/workspace.json
 segundo-cerebro/.obsidian/cache
 /video/
-.claude/
+.claude/skills/
+.claude/settings.local.json
 .impeccable/
+.env
+*.env

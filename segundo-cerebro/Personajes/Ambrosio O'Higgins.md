@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Ambrosio O'Higgins
 vida: c. 1720–1801
 rol: Gobernador de Chile y virrey del Perú

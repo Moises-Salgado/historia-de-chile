@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Policarpo Toro
 vida: 1856–1921
 rol: Marino chileno, impulsor de la incorporación de Rapa Nui

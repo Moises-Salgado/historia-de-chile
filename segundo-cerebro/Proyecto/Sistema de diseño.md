@@ -25,6 +25,6 @@ tags:
 - `prefers-reduced-motion` o teclado: sin vuelos ni desplazamientos.
 
 ## Reglas (Taste + Impeccable)
-- Sin animaciones al hacer scroll, sin parallax, sin carruseles.
+- Cinematográfico con propósito (ver Decisiones.md): escenas al hacer scroll, fondos en movimiento y relatos sí; carruseles automáticos y efectos sin función, no.
 - Un estilo de botón, un estilo de tarjeta, un radio por escala.
 - Bordes izquierdo y derecho iguales (`.wrap`). Sin desborde horizontal a 390 px.

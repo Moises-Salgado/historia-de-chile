@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Caupolicán
 vida: siglo XVI–1558
 rol: Toqui mapuche durante la guerra contra la conquista

@@ -5,10 +5,12 @@ orden: 8
 inicio: 1891
 fin: 1924
 rango: 1891–1925
+gancho: "El salitre financiaba al Estado mientras muchos pampinos cobraban su sueldo en fichas"
+revisado: pendiente
 tags:
   - periodo
-imagen: "Pedro Montt (1904).jpg"
-imagen_pie: "El presidente Pedro Montt (1906–1910), gobernante durante la República Parlamentaria. Fotografía de Marie Robinson Wright, 1904."
+imagen: "Calicheros.JPG"
+imagen_pie: "Calicheros de la pampa, que extraían el caliche del que se obtenía el salitre. Fotografía publicada en «La Lira Chilena», 1906."
 ---
 # República Parlamentaria
 

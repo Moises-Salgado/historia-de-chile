@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: mujer
 nombre: Javiera Carrera
 vida: 1781–1862
 rol: Patriota y figura política de la independencia

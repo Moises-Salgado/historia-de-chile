@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Diego Portales
 vida: 1793–1837
 rol: Comerciante y ministro, artífice del orden conservador

@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Ramón Freire
 vida: 1787–1851
 rol: Militar liberal y Director Supremo de Chile

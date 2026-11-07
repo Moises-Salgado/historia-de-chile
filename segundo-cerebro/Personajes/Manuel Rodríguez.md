@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Manuel Rodríguez
 vida: 1785–1818
 rol: Abogado y guerrillero patriota

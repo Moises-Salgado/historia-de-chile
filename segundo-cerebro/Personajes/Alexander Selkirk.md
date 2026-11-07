@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Alexander Selkirk
 vida: 1676–1721
 rol: Marinero escocés que vivió solo en Juan Fernández

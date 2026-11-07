@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Lautaro
 vida: c. 1534–1557
 rol: Líder militar mapuche, estratega de la resistencia contra la conquista

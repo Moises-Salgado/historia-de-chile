@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Pedro Aguirre Cerda
 vida: 1879–1941
 rol: Profesor, abogado y presidente de Chile (1938–1941)

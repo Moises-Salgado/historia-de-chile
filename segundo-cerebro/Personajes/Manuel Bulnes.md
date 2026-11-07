@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Manuel Bulnes
 vida: 1799–1866
 rol: Militar y presidente de Chile (1841–1851)

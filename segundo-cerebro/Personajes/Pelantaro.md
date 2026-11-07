@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Pelantaro
 vida: siglos XVI–XVII
 rol: Líder militar mapuche, vencedor en Curalaba

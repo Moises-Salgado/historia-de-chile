@@ -5,10 +5,12 @@ orden: 5
 inicio: 1823
 fin: 1830
 rango: 1823–1830
+gancho: "Siete años, dos constituciones, un ensayo federal y una guerra civil"
+revisado: pendiente
 tags:
   - periodo
-imagen: "Ramón Freire por Gil de Castro.jpg"
-imagen_pie: "Ramón Freire, Director Supremo entre 1823 y 1826. Retrato de José Gil de Castro, 1820."
+imagen: "Schmidtmeyer, Peter & Scharf, G - Scenes at a Fair -JCB Library f1.2.jpg"
+imagen_pie: "Feria popular con arpa, baile y juegos en Chile, hacia 1821. Litografía de G. J. Scharf sobre dibujo de Peter Schmidtmeyer, 1824."
 ---
 # Organización de la República
 

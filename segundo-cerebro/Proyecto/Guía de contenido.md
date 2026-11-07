@@ -170,3 +170,16 @@ tags:
 ## Enlaces
 
 Cada nota enlaza la **primera mención** de personajes, lugares, pueblos, periodos y otros eventos con su nombre canónico. Solo enlazar nombres de la lista canónica de [[Índice canónico]]. Esto crea el grafo del segundo cerebro.
+
+## Protocolo editorial (desde 2026-11-07)
+Aprobado en el debate del 2026-11-07 (ítems 1.10 y 1.11). Vale para toda nota nueva o corregida.
+
+- **`revisado:`** `pendiente` mientras no la firme una persona. Al revisarla: `"Nombre Apellido · AAAA-MM-DD"`. La página muestra el estado al lector. Una IA nunca firma.
+- **`fuentes:`** lista YAML de `"Institución — Título — URL"`, con URL comprobadas (Memoria Chilena, BND, BCN, museos, etc.). La página las muestra enlazadas.
+- **`genero:`** (solo personajes) `mujer`, `hombre` u `otro`, para medir la cobertura.
+- **Lotes de 10 notas.** Cada lote se revisa por muestreo antes del siguiente.
+- **Umbral para indexar** (páginas por momento): texto adulto de **300 palabras o más**, fuentes y revisión firmada. Lo que no llega queda con `noindex`.
+- **Metas de cobertura:** ≥3 momentos por región, ≥4 por siglo desde el XVI y ≥30 % de mujeres entre los personajes. `npm run build` escribe [[Cobertura]] con el estado.
+- **Actividades para maestros:** solo pueden pedir materiales que la nota incluye o enlaza.
+- **Fe de erratas:** toda corrección de un error ya publicado va también a `site/como-se-hace.html#erratas`.
+- **No por ahora:** debates historiográficos («Lo que se discute») y capas profundas en masa. Primero se hace un piloto en 5 momentos, con revisión humana.

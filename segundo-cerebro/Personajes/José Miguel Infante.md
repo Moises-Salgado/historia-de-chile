@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: José Miguel Infante
 vida: 1778–1844
 rol: Político liberal y federalista, impulsor de la abolición de la esclavitud

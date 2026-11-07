@@ -5,10 +5,12 @@ orden: 2
 inicio: 1520
 fin: 1598
 rango: 1520–1598
+gancho: "Buscaban oro, y desde 1598 la resistencia mapuche les arrebató casi todo el sur"
+revisado: pendiente
 tags:
   - periodo
-imagen: "Retrato de Hernando de Magallanes.jpg"
-imagen_pie: "Retrato de Hernando de Magallanes, navegante que cruzó el extremo sur en 1520. Pintura copiada en 1848."
+imagen: "Fundacion de Santiago.jpg"
+imagen_pie: "«Fundación de Santiago» (1541): Pedro de Valdivia, sus soldados e indígenas del valle. Recreación de Pedro Lira, 1888."
 ---
 # Descubrimiento y Conquista
 

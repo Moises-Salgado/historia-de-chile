@@ -5,10 +5,12 @@ orden: 9
 inicio: 1925
 fin: 1973
 rango: 1925–1973
+gancho: "Cuatro décadas de urnas: las mujeres ganaron el voto y el país se polarizó"
+revisado: pendiente
 tags:
   - periodo
-imagen: "Arturo Alessandri Palma en 1925.jpg"
-imagen_pie: "Arturo Alessandri Palma, presidente que impulsó la Constitución de 1925. Retrato de 1925, Museo Histórico Nacional."
+imagen: "Chile - Elecciones presidencial 1938.jpeg"
+imagen_pie: "Mesa de votación en la elección presidencial de 1938, cuando las mujeres aún no votaban por presidente. Revista Zig-Zag."
 ---
 # República Presidencial
 

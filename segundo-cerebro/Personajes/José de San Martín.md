@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: José de San Martín
 vida: 1778–1850
 rol: General argentino, jefe del Ejército de los Andes

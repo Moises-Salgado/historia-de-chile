@@ -91,7 +91,9 @@
       if (k === 'Home') { ev.preventDefault(); o.onEvento(o.eventos[0], null, false); }
       if (k === 'End') { ev.preventDefault(); o.onEvento(o.eventos[o.eventos.length - 1], null, false); }
     });
-    new ResizeObserver(function () { if (actual.p) { rotularBandas(); rotularSiglos(); renderDet(actual.p, false); moverCabezal(actual.anio, false); dibujarLente(); } }).observe(cont);
+    // También se observa el detalle: en la mesa de atlas vive en la columna del relato (otro ancho que el eje).
+    var ro = new ResizeObserver(function () { if (actual.p) { rotularBandas(); rotularSiglos(); renderDet(actual.p, false); moverCabezal(actual.anio, false); dibujarLente(); } });
+    ro.observe(cont); ro.observe(det);
   }
 
   // ---------------------------------------------------------------- Eje general
@@ -193,7 +195,7 @@
 
   // ---------------------------------------------------------------- Detalle del periodo
   function renderDet(p, anim) {
-    var W = det.clientWidth, M = W < 640 ? 38 : 46, GAP = 6, a0 = x(p.inicio), a1 = x(Math.min(p.fin, HOY)) || 1;
+    var W = det.clientWidth, M = W < 640 ? 38 : 40, GAP = 6, a0 = x(p.inicio), a1 = x(Math.min(p.fin, HOY)) || 1;
     var pos = function (anio) { return M / 2 + Math.max(0, Math.min(1, (x(anio) - a0) / (a1 - a0))) * (W - M); };
     var carriles = [], maxC = 0, tallos = '';
     var hitos = p.eventos.map(function (id) {
@@ -211,8 +213,9 @@
     }).join('');
     marcasEl.innerHTML = '<div class="tallos" aria-hidden="true">' + tallos + '</div>' + hitos;
     det.style.setProperty('--m', M + 'px');
-    var alto = M + 14 + maxC * (M + GAP) + 34;
-    if (anim && animar()) G.to(det, { height: alto, duration: 0.4, ease: 'salida' }); else det.style.height = alto + 'px';
+    // Mesa de atlas: la lente mide solo los carriles que usa el periodo (antes eran siempre 3 y quedaba vacía).
+    // En escritorio la línea de tiempo es fija y el mapa se acomoda debajo con --crono-h (ver app.js).
+    det.style.height = (M + 14 + maxC * (M + GAP) + 34) + 'px';
     // Marcas de años del periodo: paso "redondo" y sin choques.
     var span = Math.min(p.fin, HOY) - p.inicio, pasos = [1, 2, 5, 10, 20, 25, 50, 100, 250, 500, 1000, 2500], paso = pasos[pasos.length - 1];
     for (var i = 0; i < pasos.length; i++) if (span / pasos[i] <= Math.max(3, W / 90)) { paso = pasos[i]; break; }

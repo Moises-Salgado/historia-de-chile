@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Cornelio Saavedra
 vida: 1821–1891
 rol: Militar y político chileno, conductor de la Ocupación de la Araucanía

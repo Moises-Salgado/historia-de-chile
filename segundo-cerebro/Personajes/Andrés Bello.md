@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Andrés Bello
 vida: 1781–1865
 rol: Humanista, jurista y educador; primer rector de la Universidad de Chile

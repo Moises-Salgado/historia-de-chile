@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: mujer
 nombre: Gabriela Mistral
 vida: 1889–1957
 rol: Poeta y educadora, Premio Nobel de Literatura 1945

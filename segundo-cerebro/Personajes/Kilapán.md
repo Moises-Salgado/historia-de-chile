@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Kilapán
 vida: siglo XIX
 rol: Lonko mapuche, líder de la resistencia frente a la Ocupación de la Araucanía

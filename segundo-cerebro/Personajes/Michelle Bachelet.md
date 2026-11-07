@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: mujer
 nombre: Michelle Bachelet
 vida: 1951–
 rol: Médica y política socialista, primera presidenta de Chile (2006–2010 y 2014–2018)

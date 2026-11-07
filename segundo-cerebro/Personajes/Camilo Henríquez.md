@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Camilo Henríquez
 vida: 1769–1825
 rol: Sacerdote y periodista, redactor de la Aurora de Chile

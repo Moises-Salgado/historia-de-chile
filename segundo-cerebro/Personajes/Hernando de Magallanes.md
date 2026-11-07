@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Hernando de Magallanes
 vida: c. 1480–1521
 rol: Navegante portugués al servicio de la Corona española

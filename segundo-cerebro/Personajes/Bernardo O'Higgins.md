@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Bernardo O'Higgins
 vida: 1778–1842
 rol: Prócer de la independencia y Director Supremo de Chile

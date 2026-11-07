@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Alonso de Ercilla
 vida: 1533–1594
 rol: Soldado y poeta español, autor de La Araucana

@@ -1,5 +1,6 @@
 ---
 tipo: personaje
+genero: hombre
 nombre: Arturo Prat
 vida: 1848–1879
 rol: Marino y abogado, héroe del Combate Naval de Iquique
