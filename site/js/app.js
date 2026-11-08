@@ -352,6 +352,7 @@
     var rs = window.Recorrido && window.Recorrido.deEvento ? window.Recorrido.deEvento(e.id) || [] : [];
     if (!rs.length) return '';
     return '<p class="lam-rec">' + rs.map(function (r) {
+      if (r.modo === '3d') return '<a class="btn ver-3d" href="' + r.href + '">Paseo 3D: ' + r.titulo + ' <small>· ' + r.mb + ' MB</small></a>';
       return r.modo === 'propio'
         ? '<button class="btn ver-360" type="button" data-rec="' + r.id + '">Recorrido 360°: ' + r.titulo + '</button>'
         : '<a class="btn btn-sec" href="' + r.url + '" target="_blank" rel="noopener">' + r.titulo + ' <small>· ' + (r.institucion || 'sitio oficial') + ' ↗</small></a>';

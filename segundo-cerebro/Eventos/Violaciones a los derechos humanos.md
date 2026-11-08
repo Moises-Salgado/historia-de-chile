@@ -10,6 +10,11 @@ lugar: "[[Santiago]]"
 personajes:
   - "[[Augusto Pinochet]]"
 nivel: 2° medio
+revisado: pendiente
+fuentes:
+  - "Memoria Chilena — Informe Rettig — https://www.memoriachilena.gob.cl/602/w3-article-94640.html"
+  - "Memoria Chilena — Informe de la Comisión Nacional sobre Prisión Política y Tortura (Informe Valech) — https://www.memoriachilena.gob.cl/602/w3-article-85804.html"
+  - "Universidad Diego Portales, Observatorio de DD.HH. — Cifras de víctimas y sobrevivientes oficialmente reconocidas por el Estado (2013) — https://derechoshumanos.udp.cl/cms/wp-content/uploads/2023/09/Cifras-DD-EP-exPP-reconocidos-a-Ago2013.pdf"
 tags:
   - evento
 imagen: "Memorial DDHH Chile 77 rieles Villa Grimaldi.jpg"
@@ -24,7 +29,7 @@ Los derechos humanos son derechos que tienen todas las personas, como vivir en p
 > En [[Santiago]] está el Museo de la Memoria y los Derechos Humanos, que se puede visitar gratis. Allí se recuerda a las víctimas y se enseña la importancia de respetar a todas las personas.
 
 ## Para adultos
-Entre 1973 y 1990, agentes del Estado cometieron graves y sistemáticas violaciones a los derechos humanos: ejecuciones, desapariciones forzadas, tortura, prisión política, relegación y exilio. Estos hechos fueron establecidos por informes oficiales del Estado de Chile. La Comisión Nacional de Verdad y Reconciliación (Informe Rettig, 1991) calificó 2.279 casos de personas muertas o desaparecidas, la gran mayoría por acción de agentes del Estado; calificaciones posteriores elevaron el total a más de 3.000 víctimas. La Comisión Nacional sobre Prisión Política y Tortura (Informe Valech, 2004, y su segunda etapa, 2011) reconoció en total a más de 38.000 personas que sufrieron prisión política y tortura, y concluyó que estas prácticas fueron una política de Estado. Los principales organismos represivos fueron la DINA y luego la CNI, que operaron centros de detención como Villa Grimaldi, en [[Santiago]], hoy sitio de memoria. Frente a la represión, diversas iglesias y la comunidad judía crearon el Comité Pro Paz, y luego la Iglesia católica fundó la Vicaría de la Solidaridad, mientras las agrupaciones de familiares mantuvieron la búsqueda de los detenidos desaparecidos. Durante la dictadura, el régimen negó o justificó estos hechos; desde 1990, los tribunales han condenado a numerosos responsables, aunque muchas familias siguen exigiendo verdad y justicia.
+Entre 1973 y 1990, agentes del Estado cometieron graves y sistemáticas violaciones a los derechos humanos: ejecuciones, desapariciones forzadas, tortura, prisión política, relegación y exilio. Estos hechos fueron establecidos por informes oficiales del Estado de Chile. La Comisión Nacional de Verdad y Reconciliación (Informe Rettig, 1991) calificó 2.279 casos de personas muertas o desaparecidas, la gran mayoría por acción de agentes del Estado; las calificaciones posteriores de la Corporación Nacional de Reparación y Reconciliación (1996) y de la segunda etapa de la Comisión Valech (2011) elevaron el total reconocido por el Estado a más de 3.000 víctimas. La Comisión Nacional sobre Prisión Política y Tortura (Informe Valech, 2004, y su segunda etapa, 2011) reconoció en total a más de 38.000 personas que sufrieron prisión política y tortura, y concluyó que estas prácticas fueron una política de Estado. Los principales organismos represivos fueron la DINA y luego la CNI, que operaron centros de detención como Villa Grimaldi, en [[Santiago]], hoy sitio de memoria. Frente a la represión, diversas iglesias y la comunidad judía crearon el Comité Pro Paz, y luego la Iglesia católica fundó la Vicaría de la Solidaridad, mientras las agrupaciones de familiares mantuvieron la búsqueda de los detenidos desaparecidos. Durante la dictadura, el régimen negó o justificó estos hechos; desde 1990, los tribunales han condenado a numerosos responsables, aunque muchas familias siguen exigiendo verdad y justicia.
 
 ## Para maestros
 **Nivel sugerido:** 2° medio

@@ -7,6 +7,9 @@ fin: 1809
 rango: 1598–1810
 gancho: "Dos siglos con un río por frontera entre el reino y el pueblo mapuche"
 revisado: pendiente
+fuentes:
+  - "Memoria Chilena — Decadencia de la encomienda — https://www.memoriachilena.gob.cl/602/w3-article-93200.html"
+  - "Memoria Chilena — Estudios historiográficos de la esclavitud en Chile — https://www.memoriachilena.gob.cl/602/w3-article-95705.html"
 tags:
   - periodo
 imagen: "Geographic Chart of the Kingdom of Chile WDL3968.png"
@@ -15,7 +18,7 @@ imagen_pie: "Mapa del Reino de Chile del jesuita Alonso de Ovalle, publicado en 
 # Colonia
 
 ## Para niños
-Durante más de doscientos años, Chile fue parte del Imperio español. En ese tiempo, españoles, pueblos originarios y africanos se mezclaron, y así nació el pueblo mestizo del que descienden muchos chilenos de hoy. Mucha gente vivía en el campo, en grandes haciendas donde se cultivaba trigo y se criaba ganado. Al sur del [[Río Biobío|río Biobío]], el [[Pueblo Mapuche]] siguió viviendo libre, y españoles y mapuche hicieron grandes reuniones de paz llamadas parlamentos.
+Durante más de doscientos años, Chile fue parte del Imperio español. En ese tiempo, españoles, pueblos originarios y africanos —muchos traídos a la fuerza como esclavos— se mezclaron, y así nació el pueblo mestizo del que descienden muchos chilenos de hoy. Mucha gente vivía en el campo, en grandes haciendas donde se cultivaba trigo y se criaba ganado. Al sur del [[Río Biobío|río Biobío]], el [[Pueblo Mapuche]] siguió viviendo de forma independiente. Hubo guerras, pero también comercio y grandes reuniones llamadas parlamentos, donde se hacían acuerdos de paz.
 
 > [!tip] ¿Sabías que?
 > El Palacio de La Moneda, donde hoy trabaja el presidente, se construyó durante la Colonia para fabricar monedas.
@@ -33,7 +36,7 @@ La sociedad colonial era jerárquica: arriba, españoles peninsulares y criollos
 - La hacienda organizó la economía y la vida rural, y dejó huellas duraderas como el inquilinaje.
 - La Iglesia y la Corona dieron forma a ciudades, educación y costumbres; muchas tradiciones chilenas nacen en esta etapa.
 - La historiografía del siglo XIX tendió a ver la Colonia como una época de estancamiento; hoy se la estudia como el periodo en que se formó la sociedad chilena.
-**Habilidad a trabajar:** Comparar los distintos grupos de la sociedad colonial a partir de fuentes (pinturas, documentos, objetos) y reconocer continuidades entre la Colonia y el Chile actual.
+**Habilidad a trabajar:** Comparar los grupos de la sociedad colonial a partir del mapa de Alonso de Ovalle (imagen de esta nota) y de los momentos enlazados, como el [[Parlamento de Quilín]] y el [[Terremoto de 1647]], y reconocer continuidades con el Chile actual.
 
 ## Eventos
 - [[Los jesuitas llegan a Chiloé]]

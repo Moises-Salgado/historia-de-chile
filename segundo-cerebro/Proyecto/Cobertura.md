@@ -1,6 +1,6 @@
 ---
 tipo: informe
-generado: 2026-11-07
+generado: 2026-11-08
 ---
 # Cobertura del contenido
 
@@ -9,7 +9,7 @@ generado: 2026-11-07
 
 ## Resumen
 
-- Momentos: **77** · con fuentes: **8** · revisados por una persona: **0** · listos para indexar: **0**
+- Momentos: **77** · con fuentes: **10** · revisados por una persona: **0** · listos para indexar: **0**
 - Texto adulto bajo 300 palabras: **69** de 77
 - Personajes: **41** · mujeres: **7** · hombres: **34** ⚠️ (17% mujeres)
 
@@ -78,7 +78,6 @@ Sin región (sin coordenadas o fuera del mapa): Guerra contra la Confederación 
 - Parlamento de Quilín (179)
 - Incorporación de Chiloé (179)
 - Elecciones presidenciales de 2025 (179)
-- Asentamiento de Monte Verde (181)
 - Fundación de la Universidad de Chile (181)
 - Nacionalización del cobre (182)
 - Constitución de 1833 (183)
@@ -111,7 +110,6 @@ Sin región (sin coordenadas o fuera del mapa): Guerra contra la Confederación 
 - Guerra Civil de 1891 (192)
 - Ley Indígena (192)
 - La Araucana de Alonso de Ercilla (193)
-- La Patria Vieja (193)
 - Elección de Salvador Allende (193)
 - Los oasis de San Pedro de Atacama (194)
 - La cuestión social (194)
@@ -120,7 +118,6 @@ Sin región (sin coordenadas o fuera del mapa): Guerra contra la Confederación 
 - Fundación de Santiago (196)
 - Cruce de los Andes y Batalla de Chacabuco (197)
 - Incorporación de Rapa Nui (197)
-- Expansión inca en Chile (198)
 - Guerra contra la Confederación Perú-Boliviana (198)
 - Toma del Morro de Arica (198)
 - Plebiscito de 1988 (198)
@@ -128,19 +125,22 @@ Sin región (sin coordenadas o fuera del mapa): Guerra contra la Confederación 
 - Retorno a la democracia (199)
 - La época del salitre (200)
 - Constitución de 1980 (200)
-- Violaciones a los derechos humanos (204)
+- La Patria Vieja (203)
 - Tratado de Límites con Argentina (205)
 - Modelo económico neoliberal (206)
 - Procesos constitucionales (207)
 - Conflicto del Beagle (210)
 - Estallido social (211)
+- Expansión inca en Chile (222)
+- Asentamiento de Monte Verde (227)
+- Violaciones a los derechos humanos (228)
 - Inicio de la Guerra del Pacífico (231)
 
 ## Pendientes de revisión humana
 
 Para firmar una nota: cambia `revisado: pendiente` por `revisado: "Tu nombre · AAAA-MM-DD"` (ver [[Guía de contenido]], «Protocolo editorial»).
 
-### Nuevas o corregidas (21)
+### Nuevas o corregidas (22)
 
 - [ ] [[Colonia]]
 - [ ] [[Descubrimiento y Conquista]]
@@ -161,9 +161,10 @@ Para firmar una nota: cambia `revisado: pendiente` por `revisado: "Tu nombre · 
 - [ ] [[Ocupación de Tierra del Fuego y genocidio selk'nam]]
 - [ ] [[Pueblos canoeros y cazadores del extremo sur]]
 - [ ] [[Rebelión de María Angata]]
+- [ ] [[Violaciones a los derechos humanos]]
 - [ ] [[María Angata]]
 - [ ] [[Violeta Parra]]
 
-### Sin revisar desde antes del protocolo (150)
+### Sin revisar desde antes del protocolo (149)
 
-[[Abdicación de O'Higgins]] · [[Abolición de la esclavitud]] · [[Alexander Selkirk en Juan Fernández]] · [[Asentamiento de Monte Verde]] · [[Batalla de Lircay]] · [[Batalla de Maipú]] · [[Batalla de Tucapel]] · [[Centenario de la Independencia]] · [[Colonización alemana en Llanquihue]] · [[Combate Naval de Iquique]] · [[Conflicto del Beagle]] · [[Constitución de 1833]] · [[Constitución de 1925]] · [[Constitución de 1980]] · [[Cruce de los Andes y Batalla de Chacabuco]] · [[Cultura Diaguita]] · [[Desastre de Curalaba]] · [[Desastre de Rancagua]] · [[Elecciones presidenciales de 2025]] · [[Elección de Salvador Allende]] · [[Estallido social]] · [[Expansión inca en Chile]] · [[Expedición de Diego de Almagro]] · [[Fuerte Bulnes y el Estrecho de Magallanes]] · [[Fuertes de Valdivia]] · [[Fundación de la Universidad de Chile]] · [[Fundación de Santiago]] · [[Gabriela Mistral, Premio Nobel]] · [[Golpe de Estado de 1973]] · [[Guerra Civil de 1891]] · [[Guerra contra la Confederación Perú-Boliviana]] · [[Incorporación de Chiloé]] · [[Incorporación de Rapa Nui]] · [[Inicio de la Guerra del Pacífico]] · [[La Araucana de Alonso de Ercilla]] · [[La cuestión social]] · [[La Patria Vieja]] · [[La época del salitre]] · [[Las momias Chinchorro]] · [[Ley de Instrucción Primaria Obligatoria]] · [[Ley Indígena]] · [[Los jesuitas llegan a Chiloé]] · [[Los oasis de San Pedro de Atacama]] · [[Magallanes cruza el estrecho]] · [[Mapuche, la gente de la tierra]] · [[Matanza de la Escuela Santa María de Iquique]] · [[Michelle Bachelet, primera presidenta]] · [[Modelo económico neoliberal]] · [[Nacionalización del cobre]] · [[Ocupación de la Araucanía]] · [[Parlamento de Quilín]] · [[Plebiscito de 1988]] · [[Primera Junta Nacional de Gobierno]] · [[Procesos constitucionales]] · [[Proclamación de la Independencia]] · [[Rapa Nui y los moai]] · [[Reforma Agraria]] · [[Refundación de Osorno]] · [[Rescate de los 33 mineros]] · [[Retorno a la democracia]] · [[Terremoto de 1647]] · [[Terremoto de Chillán y la CORFO]] · [[Terremoto de Valdivia]] · [[Terremoto y tsunami del 27F]] · [[Toma de Valdivia]] · [[Toma del Morro de Arica]] · [[Tratado de Límites con Argentina]] · [[Violaciones a los derechos humanos]] · [[Voto femenino]] · [[Alexander Selkirk]] · [[Alonso de Ercilla]] · [[Ambrosio O'Higgins]] · [[Andrés Bello]] · [[Arturo Alessandri]] · [[Arturo Prat]] · [[Augusto Pinochet]] · [[Bernardo O'Higgins]] · [[Camilo Henríquez]] · [[Caupolicán]] · [[Cornelio Saavedra]] · [[Diego de Almagro]] · [[Diego Portales]] · [[Eduardo Frei Montalva]] · [[Elena Caffarena]] · [[Gabriela Mistral]] · [[Hernando de Magallanes]] · [[Inés de Suárez]] · [[Javiera Carrera]] · [[José de San Martín]] · [[José Manuel Balmaceda]] · [[José Miguel Carrera]] · [[José Miguel Infante]] · [[Kilapán]] · [[Lautaro]] · [[Lord Cochrane]] · [[Luis Emilio Recabarren]] · [[Manuel Bulnes]] · [[Manuel Rodríguez]] · [[Michelle Bachelet]] · [[Michimalonco]] · [[Patricio Aylwin]] · [[Pedro Aguirre Cerda]] · [[Pedro de Valdivia]] · [[Pelantaro]] · [[Policarpo Toro]] · [[Ramón Freire]] · [[Salvador Allende]] · [[Vicente Pérez Rosales]] · [[Antofagasta]] · [[Archipiélago Juan Fernández]] · [[Arica]] · [[Chillán]] · [[Chiloé]] · [[Chuquicamata]] · [[Concepción]] · [[Copiapó]] · [[Desierto de Atacama]] · [[Estrecho de Magallanes]] · [[Iquique]] · [[Llanquihue]] · [[Osorno]] · [[Patagonia]] · [[Punta Arenas]] · [[Rancagua]] · [[Rapa Nui]] · [[Río Biobío]] · [[San Pedro de Atacama]] · [[Santiago]] · [[Talca]] · [[Temuco]] · [[Territorio Chileno Antártico]] · [[Valdivia]] · [[Valle de Elqui]] · [[Valparaíso]] · [[Wallmapu]] · [[Cultura Chinchorro]] · [[Imperio inca]] · [[Pueblo Aymara]] · [[Pueblo Aónikenk]] · [[Pueblo Chango]] · [[Pueblo Chono]] · [[Pueblo Colla]] · [[Pueblo Diaguita]] · [[Pueblo Kawésqar]] · [[Pueblo Lickanantay]] · [[Pueblo Mapuche]] · [[Pueblo Quechua]] · [[Pueblo Rapa Nui]] · [[Pueblo Selk'nam]] · [[Pueblo Yagán]]
+[[Abdicación de O'Higgins]] · [[Abolición de la esclavitud]] · [[Alexander Selkirk en Juan Fernández]] · [[Asentamiento de Monte Verde]] · [[Batalla de Lircay]] · [[Batalla de Maipú]] · [[Batalla de Tucapel]] · [[Centenario de la Independencia]] · [[Colonización alemana en Llanquihue]] · [[Combate Naval de Iquique]] · [[Conflicto del Beagle]] · [[Constitución de 1833]] · [[Constitución de 1925]] · [[Constitución de 1980]] · [[Cruce de los Andes y Batalla de Chacabuco]] · [[Cultura Diaguita]] · [[Desastre de Curalaba]] · [[Desastre de Rancagua]] · [[Elecciones presidenciales de 2025]] · [[Elección de Salvador Allende]] · [[Estallido social]] · [[Expansión inca en Chile]] · [[Expedición de Diego de Almagro]] · [[Fuerte Bulnes y el Estrecho de Magallanes]] · [[Fuertes de Valdivia]] · [[Fundación de la Universidad de Chile]] · [[Fundación de Santiago]] · [[Gabriela Mistral, Premio Nobel]] · [[Golpe de Estado de 1973]] · [[Guerra Civil de 1891]] · [[Guerra contra la Confederación Perú-Boliviana]] · [[Incorporación de Chiloé]] · [[Incorporación de Rapa Nui]] · [[Inicio de la Guerra del Pacífico]] · [[La Araucana de Alonso de Ercilla]] · [[La cuestión social]] · [[La Patria Vieja]] · [[La época del salitre]] · [[Las momias Chinchorro]] · [[Ley de Instrucción Primaria Obligatoria]] · [[Ley Indígena]] · [[Los jesuitas llegan a Chiloé]] · [[Los oasis de San Pedro de Atacama]] · [[Magallanes cruza el estrecho]] · [[Mapuche, la gente de la tierra]] · [[Matanza de la Escuela Santa María de Iquique]] · [[Michelle Bachelet, primera presidenta]] · [[Modelo económico neoliberal]] · [[Nacionalización del cobre]] · [[Ocupación de la Araucanía]] · [[Parlamento de Quilín]] · [[Plebiscito de 1988]] · [[Primera Junta Nacional de Gobierno]] · [[Procesos constitucionales]] · [[Proclamación de la Independencia]] · [[Rapa Nui y los moai]] · [[Reforma Agraria]] · [[Refundación de Osorno]] · [[Rescate de los 33 mineros]] · [[Retorno a la democracia]] · [[Terremoto de 1647]] · [[Terremoto de Chillán y la CORFO]] · [[Terremoto de Valdivia]] · [[Terremoto y tsunami del 27F]] · [[Toma de Valdivia]] · [[Toma del Morro de Arica]] · [[Tratado de Límites con Argentina]] · [[Voto femenino]] · [[Alexander Selkirk]] · [[Alonso de Ercilla]] · [[Ambrosio O'Higgins]] · [[Andrés Bello]] · [[Arturo Alessandri]] · [[Arturo Prat]] · [[Augusto Pinochet]] · [[Bernardo O'Higgins]] · [[Camilo Henríquez]] · [[Caupolicán]] · [[Cornelio Saavedra]] · [[Diego de Almagro]] · [[Diego Portales]] · [[Eduardo Frei Montalva]] · [[Elena Caffarena]] · [[Gabriela Mistral]] · [[Hernando de Magallanes]] · [[Inés de Suárez]] · [[Javiera Carrera]] · [[José de San Martín]] · [[José Manuel Balmaceda]] · [[José Miguel Carrera]] · [[José Miguel Infante]] · [[Kilapán]] · [[Lautaro]] · [[Lord Cochrane]] · [[Luis Emilio Recabarren]] · [[Manuel Bulnes]] · [[Manuel Rodríguez]] · [[Michelle Bachelet]] · [[Michimalonco]] · [[Patricio Aylwin]] · [[Pedro Aguirre Cerda]] · [[Pedro de Valdivia]] · [[Pelantaro]] · [[Policarpo Toro]] · [[Ramón Freire]] · [[Salvador Allende]] · [[Vicente Pérez Rosales]] · [[Antofagasta]] · [[Archipiélago Juan Fernández]] · [[Arica]] · [[Chillán]] · [[Chiloé]] · [[Chuquicamata]] · [[Concepción]] · [[Copiapó]] · [[Desierto de Atacama]] · [[Estrecho de Magallanes]] · [[Iquique]] · [[Llanquihue]] · [[Osorno]] · [[Patagonia]] · [[Punta Arenas]] · [[Rancagua]] · [[Rapa Nui]] · [[Río Biobío]] · [[San Pedro de Atacama]] · [[Santiago]] · [[Talca]] · [[Temuco]] · [[Territorio Chileno Antártico]] · [[Valdivia]] · [[Valle de Elqui]] · [[Valparaíso]] · [[Wallmapu]] · [[Cultura Chinchorro]] · [[Imperio inca]] · [[Pueblo Aymara]] · [[Pueblo Aónikenk]] · [[Pueblo Chango]] · [[Pueblo Chono]] · [[Pueblo Colla]] · [[Pueblo Diaguita]] · [[Pueblo Kawésqar]] · [[Pueblo Lickanantay]] · [[Pueblo Mapuche]] · [[Pueblo Quechua]] · [[Pueblo Rapa Nui]] · [[Pueblo Selk'nam]] · [[Pueblo Yagán]]

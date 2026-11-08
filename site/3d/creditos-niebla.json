@@ -1,0 +1,172 @@
+{
+  "escena": "Castillo de Niebla, como se ve hoy · reconstrucción aproximada",
+  "recursos": [
+    {
+      "tipo": "textura",
+      "id": "gravelly_sand",
+      "nombre": "Gravelly Sand",
+      "autores": [
+        "Dario Barresi"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/gravelly_sand"
+    },
+    {
+      "tipo": "textura",
+      "id": "dry_ground_01",
+      "nombre": "Dry Ground 01",
+      "autores": [
+        "Rob Tuytel"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/dry_ground_01"
+    },
+    {
+      "tipo": "textura",
+      "id": "white_stucco_02",
+      "nombre": "White Stucco 02",
+      "autores": [
+        "Dimitrios Savva"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/white_stucco_02"
+    },
+    {
+      "tipo": "textura",
+      "id": "white_planks_clean",
+      "nombre": "White Planks Clean",
+      "autores": [
+        "Rob Tuytel"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/white_planks_clean"
+    },
+    {
+      "tipo": "textura",
+      "id": "worn_corrugated_iron",
+      "nombre": "Worn Corrugated Iron",
+      "autores": [
+        "Jenelle van Heerden",
+        "Dimitrios Savva"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/worn_corrugated_iron"
+    },
+    {
+      "tipo": "textura",
+      "id": "brushed_concrete",
+      "nombre": "Brushed Concrete ",
+      "autores": [
+        "Dario Barresi",
+        "Dimitrios Savva"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/brushed_concrete"
+    },
+    {
+      "tipo": "textura",
+      "id": "bark_brown_02",
+      "nombre": "Bark Brown 02",
+      "autores": [
+        "Rob Tuytel"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/bark_brown_02"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Oficinas salitreras de Humberstone y Santa Laura, Chile, 2016-02-11, DD 61.jpg",
+      "autores": [
+        "Diego Delso"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura%2C_Chile%2C_2016-02-11%2C_DD_61.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Oficinas salitreras de Humberstone y Santa Laura, Chile, 2016-02-11, DD 63-65 HDR.jpg",
+      "autores": [
+        "Diego Delso"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura%2C_Chile%2C_2016-02-11%2C_DD_63-65_HDR.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Chile Teatro Humberstone 2.jpg",
+      "autores": [
+        "Pablo Trincado"
+      ],
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chile_Teatro_Humberstone_2.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Chile Teatro Humberstone 3.jpg",
+      "autores": [
+        "Pablo Trincado"
+      ],
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chile_Teatro_Humberstone_3.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Fuerte de Niebla.JPG",
+      "autores": [
+        "CristianDiaz"
+      ],
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuerte_de_Niebla.JPG"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Fuerte niebla valdivia 2024 20.jpg",
+      "autores": [
+        "Charlie danvers"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuerte_niebla_valdivia_2024_20.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Castillo de Niebla, muro de mampostería.JPG",
+      "autores": [
+        "AlBustos"
+      ],
+      "licencia": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Castillo_de_Niebla%2C_muro_de_mamposter%C3%ADa.JPG"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Fuerte niebla valdivia 2024 31.jpg",
+      "autores": [
+        "Charlie danvers"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuerte_niebla_valdivia_2024_31.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Fuerte niebla valdivia 2024 22.jpg",
+      "autores": [
+        "Charlie danvers"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fuerte_niebla_valdivia_2024_22.jpg"
+    },
+    {
+      "tipo": "relieve",
+      "nombre": "Terrain Tiles (SRTM y otras fuentes abiertas)",
+      "autores": [
+        "Mapzen / Amazon Web Services"
+      ],
+      "licencia": "Datos abiertos con atribución",
+      "url": "https://registry.opendata.aws/terrain-tiles/"
+    }
+  ],
+  "referencias": [
+    "Planta: OpenStreetMap (ODbL), © colaboradores de OpenStreetMap",
+    "Relieve: Terrain Tiles (Mapzen/AWS; SRTM de la NASA y otras fuentes abiertas)",
+    "Texturas de fotos de Wikimedia Commons (ver recursos); geometría por script en Blender (scripts/3d/niebla.py), sin IA"
+  ]
+}

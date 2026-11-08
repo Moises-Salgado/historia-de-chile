@@ -1,0 +1,239 @@
+/* Paseo 3D · Humberstone, c. 1935. Usa los tokens de estilos.css; la interfaz sobre la escena es la «sala oscura»
+   del visor 360° (recorrido.css). La tarjeta del punto de interés es papel del atlas.
+   Movimiento: solo transform y opacity (GSAP en paseo.js). Con html.rm quedan fundidos, sin desplazamientos. */
+
+html:has(body.paseo) { height: 100%; overflow: hidden; scrollbar-gutter: auto; scroll-behavior: auto; }
+body.paseo {
+  --s-ink: #f3eee3; --s-ink-2: #ddd7cb; --s-cobre: #f0bc9f; --s-fondo: rgb(5 6 6 / 0.76); --s-borde: rgb(243 238 227 / 0.24);
+  --s-foco: #7cc6e0;
+  height: 100%; margin: 0; overflow: hidden; overscroll-behavior: none; background: #0b0d0c; color: var(--s-ink);
+}
+[data-hud][hidden], .tarjeta[hidden], .portada[hidden], .error[hidden], .cartel[hidden] { display: none !important; }
+
+/* ---------- Escena ---------- */
+#escena {
+  position: fixed; inset: 0; display: block; width: 100vw; height: 100dvh; outline: none;
+  touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; cursor: grab;
+}
+#escena.arrastrando { cursor: grabbing; }
+html.teclado #escena:focus-visible { outline: 3px solid var(--s-foco); outline-offset: -3px; }
+.velo {
+  position: fixed; inset: 0; z-index: 1; pointer-events: none;
+  background: radial-gradient(ellipse 120% 95% at 50% 46%, transparent 60%, rgb(0 0 0 / 0.26));
+}
+
+/* ---------- Barra superior ---------- */
+.hud-sup {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 5;
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
+  padding: max(14px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 44px max(16px, env(safe-area-inset-left));
+  background: linear-gradient(rgb(5 6 6 / 0.72), rgb(5 6 6 / 0.3) 70%, rgb(5 6 6 / 0)); pointer-events: none;
+}
+.hud-sup > * { pointer-events: auto; }
+.hud-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 44px; min-height: 44px; padding: 0 14px;
+  border: 1px solid var(--s-borde); border-radius: 999px; background: var(--s-fondo); color: var(--s-ink);
+  font: 600 0.9375rem/1 var(--font-ui); text-decoration: none; cursor: pointer; white-space: nowrap;
+  transition: transform 160ms var(--ease-out), background-color 160ms ease, border-color 160ms ease;
+}
+.hud-btn:active { transform: scale(0.97); }
+.hud-btn:focus-visible { outline: 3px solid var(--s-foco); outline-offset: 2px; }
+.hud-btn svg { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.hud-btn[aria-pressed="true"] { border-color: var(--s-cobre); }
+#b-liviano[aria-pressed="true"] { background: rgb(168 71 31 / 0.55); }
+#b-sonido .tacha, #b-sonido.apagado .ondas { display: none; }
+#b-sonido.apagado .tacha { display: inline; }
+.hud-acciones { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+@media (hover: hover) and (pointer: fine) {
+  .hud-btn:hover { background: rgb(5 6 6 / 0.8); border-color: rgb(243 238 227 / 0.5); }
+}
+.sello {
+  display: grid; justify-items: start; gap: 3px; margin: 3px auto 0 6px; text-align: left; pointer-events: none;
+  text-shadow: 0 1px 12px rgb(0 0 0 / 0.6);
+}
+.sello-t { font: 500 1.3rem/1.1 var(--font-display); color: var(--s-ink); }
+.anio { font-variant-numeric: tabular-nums lining-nums; }
+.sello-r { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--s-cobre); }
+
+/* ---------- Ayuda de controles ---------- */
+.ayuda {
+  position: fixed; left: max(16px, env(safe-area-inset-left)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 4;
+  width: max-content; max-width: min(340px, calc(100vw - 32px)); padding: 14px 16px;
+  border: 1px solid var(--s-borde); border-radius: var(--r-3); background: var(--s-fondo); color: var(--s-ink);
+  font-size: 0.9375rem; line-height: 1.5;
+}
+.ayuda-t { margin: 0 0 6px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--s-cobre); }
+.ayuda ul { display: grid; gap: 5px; margin: 0; padding: 0; list-style: none; }
+.ayuda kbd, .tarjeta kbd { color: inherit; }
+.ayuda kbd { border-color: rgb(243 238 227 / 0.4); background: rgb(243 238 227 / 0.12); }
+.teclas { display: inline-flex; gap: 2px; }
+.mini-punto {
+  display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; vertical-align: -3px;
+  background: #a8471f; color: #fbf9f4; font-size: 0.6875rem; font-weight: 700; box-shadow: 0 0 0 1.5px #fbf9f4;
+}
+.ayuda-tactil { display: none; margin: 0; }
+html.tactil .ayuda ul { display: none; }
+html.tactil .ayuda-tactil { display: block; }
+
+/* ---------- Marcadores de los puntos de interés ---------- */
+.marcas { position: fixed; inset: 0; z-index: 2; overflow: hidden; pointer-events: none; }
+.poi-marca {
+  position: absolute; left: 0; top: 0; display: flex; align-items: center; gap: 8px;
+  translate: -12px -12px; opacity: 0; transition: opacity 220ms ease; will-change: transform;
+}
+.poi-marca.visible { opacity: 1; }
+.poi-punto {
+  display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%;
+  background: #a8471f; color: #fbf9f4; font-size: 0.8125rem; font-weight: 700;
+  box-shadow: 0 0 0 2px #fbf9f4, 0 3px 12px rgb(0 0 0 / 0.5);
+}
+.poi-nombre {
+  padding: 4px 10px; border-radius: 999px; background: rgb(5 6 6 / 0.8); color: var(--s-ink);
+  font-size: 0.875rem; font-weight: 600; white-space: nowrap;
+  opacity: 0; transform: translateX(-4px); transition: opacity 200ms ease, transform 200ms var(--ease-out);
+}
+.poi-marca.cerca .poi-nombre { opacity: 1; transform: none; }
+html.rm .poi-nombre { transform: none; }
+
+/* ---------- Tarjeta del punto de interés (papel del atlas) ---------- */
+.tarjeta {
+  position: fixed; left: 50%; bottom: max(24px, env(safe-area-inset-bottom)); z-index: 6; translate: -50% 0;
+  width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 140px); overflow-y: auto; padding: 18px 20px 16px;
+  border: 1px solid var(--line); border-radius: var(--r-3); background: var(--surface); color: var(--ink);
+  box-shadow: 0 14px 44px -14px rgb(0 0 0 / 0.6), 0 2px 6px rgb(0 0 0 / 0.18);
+}
+.tarjeta .t-meta { margin: 4px 0 8px; font-size: 0.82rem; color: var(--s-cobre); }
+.tarjeta h2 { margin: 0 0 8px; font-size: clamp(1.45rem, 2.4vw, 1.8rem); }
+.tarjeta p { margin: 0 0 10px; font-size: 1rem; line-height: 1.55; }
+.tarjeta .fuente { color: var(--ink-2); font-size: var(--ui-xs, 0.8125rem); }
+.t-mas { min-height: 40px; padding: 0 14px; gap: 10px; }
+.t-mas kbd { font-size: 0.75rem; }
+
+/* ---------- Joystick táctil ---------- */
+.joystick {
+  position: fixed; left: max(20px, env(safe-area-inset-left)); bottom: max(24px, env(safe-area-inset-bottom)); z-index: 4;
+  display: none; width: 132px; height: 132px; border-radius: 50%; touch-action: none;
+  border: 2px solid rgb(243 238 227 / 0.6); background: rgb(5 6 6 / 0.34); box-shadow: 0 4px 22px rgb(0 0 0 / 0.35);
+}
+.perilla {
+  position: absolute; left: 50%; top: 50%; width: 58px; height: 58px; margin: -29px 0 0 -29px; border-radius: 50%;
+  background: rgb(243 238 227 / 0.92); box-shadow: 0 2px 10px rgb(0 0 0 / 0.4); pointer-events: none;
+}
+html.tactil .joystick { display: block; }
+@media (pointer: coarse) { .joystick { display: block; } }
+
+/* ---------- Aviso breve ---------- */
+.aviso {
+  position: fixed; left: 50%; top: 92px; z-index: 7; translate: -50% 0; max-width: calc(100vw - 32px); margin: 0;
+  padding: 8px 14px; border-radius: 999px; background: rgb(5 6 6 / 0.78); color: var(--s-ink);
+  font-size: 0.9375rem; text-align: center; opacity: 0; transition: opacity 200ms ease; pointer-events: none;
+}
+.aviso:empty { display: none; }
+.aviso.visible { opacity: 1; }
+
+/* ---------- Portada: carga y cartel ---------- */
+/* Cartel de título a la izquierda, como en una película: el velo oscurece solo detrás del texto y la vista aérea
+   del campamento queda a la derecha. En pantallas angostas el texto baja y el velo sube desde abajo. */
+.portada {
+  position: fixed; inset: 0; z-index: 10; display: grid; place-items: center start; padding: 32px clamp(16px, 6vw, 96px); overflow-y: auto;
+  background: linear-gradient(90deg, rgb(7 9 8 / 0.88) 0%, rgb(7 9 8 / 0.74) 36%, rgb(7 9 8 / 0.2) 66%, rgb(7 9 8 / 0) 100%);
+  color: var(--s-ink);
+}
+@media (max-width: 760px) {
+  .portada {
+    place-items: end center; padding-bottom: 40px;
+    background: linear-gradient(0deg, rgb(7 9 8 / 0.92) 0%, rgb(7 9 8 / 0.8) 56%, rgb(7 9 8 / 0.15) 84%, rgb(7 9 8 / 0) 100%);
+  }
+}
+.portada.con-error { place-items: center; }
+.portada::before {     /* mientras carga, la sala está a oscuras; al estar lista, la escena se asoma detrás */
+  content: ""; position: absolute; inset: 0; z-index: -1; background: #0b0d0c; transition: opacity 900ms var(--ease-out);
+}
+.portada.lista::before, .portada.con-error::before { opacity: 0; }
+.portada.con-error { background: rgb(8 10 9 / 0.94); }
+.portada.saliendo { pointer-events: none; }
+.cartel { display: grid; justify-items: start; width: min(560px, 100%); text-align: left; }
+@media (max-width: 760px) { .cartel { justify-items: center; text-align: center; } }
+.cartel .eyebrow, .error .eyebrow { color: var(--s-cobre); }
+.cartel h1 {
+  margin: 2px 0 10px; color: var(--s-ink); font: 500 clamp(2.6rem, 7.2vw, 4.9rem)/1.02 var(--font-display);
+  text-wrap: balance; text-shadow: 0 2px 24px rgb(0 0 0 / 0.45);
+}
+.cartel-sub {
+  display: flex; align-items: center; gap: 14px; margin: 0 0 20px; color: var(--s-ink);
+  font: italic 400 clamp(1.1rem, 2.2vw, 1.4rem)/1.3 var(--font-display);
+}
+.cartel-sub::after { content: ""; flex: 0 0 36px; height: 1px; background: var(--s-cobre); }
+@media (max-width: 760px) { .cartel-sub::before { content: ""; flex: 0 0 36px; height: 1px; background: var(--s-cobre); } }
+.cartel-intro { max-width: 52ch; margin: 0 0 26px; color: var(--s-ink-2); font-size: 1rem; line-height: 1.6; text-wrap: pretty; text-shadow: 0 1px 8px rgb(0 0 0 / 0.6); }
+.carga { width: min(320px, 80%); height: 2px; margin-bottom: 10px; overflow: hidden; border-radius: 2px; background: rgb(243 238 227 / 0.2); }
+.carga span { display: block; height: 100%; background: var(--s-cobre); transform: scaleX(0); transform-origin: 0 50%; transition: transform 240ms linear; }
+.carga.indeterminada span { width: 30%; transform: none; animation: carga-ind 1.2s linear infinite; }
+@keyframes carga-ind { from { translate: -100% 0; } to { translate: 340% 0; } }
+html.rm .carga.indeterminada span { width: 100%; opacity: 0.5; animation: none; }
+.portada.lista .carga { opacity: 0; transition: opacity 300ms ease; }
+.estado { min-height: 1.4em; margin: 0 0 16px; color: var(--s-ink-2); font-size: 0.875rem; }
+.entrar { min-width: 190px; min-height: 52px; font-size: 1.0625rem; }
+.entrar:focus-visible { outline: 3px solid var(--s-foco); outline-offset: 3px; }
+.cartel-nota { margin: 14px 0 0; color: var(--s-ink-2); font-size: var(--ui-xs, 0.8125rem); }
+.error { width: min(560px, 100%); text-align: center; }
+.error h1 { margin: 6px 0 14px; color: var(--s-ink); font: 500 clamp(1.8rem, 4vw, 2.6rem)/1.1 var(--font-display); }
+.error p { color: var(--s-ink-2); line-height: 1.6; }
+.error .btn-sec { color: var(--s-ink); border-color: var(--s-borde); }
+.noscript { max-width: 40ch; color: var(--s-ink); text-align: center; }
+.noscript a { color: var(--s-cobre); }
+
+/* ---------- Controles, reconstrucción y créditos ---------- */
+.acerca {
+  width: min(700px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); padding: 0; overflow: hidden;
+  border: 1px solid var(--line); border-radius: var(--r-3); background: var(--surface); color: var(--ink);
+  box-shadow: 0 24px 60px -20px rgb(0 0 0 / 0.6);
+}
+.acerca[open] { opacity: 1; transition: opacity 180ms ease; }
+@starting-style { .acerca[open] { opacity: 0; } }
+.acerca::backdrop { background: rgb(5 6 6 / 0.55); }
+.acerca-in { position: relative; max-height: calc(100dvh - 50px); padding: 26px 26px 22px; overflow-y: auto; }
+.acerca .eyebrow { margin-bottom: 4px; }
+.acerca h2 { margin: 0 52px 4px 0; font-size: clamp(1.6rem, 3vw, 2.05rem); }
+.acerca h3 { margin: 22px 0 8px; font-size: 1.15rem; letter-spacing: 0; }
+.acerca p, .acerca li, .acerca dd { color: var(--ink-2); font-size: 0.9375rem; line-height: 1.6; }
+.acerca a { color: var(--accent); text-underline-offset: 0.18em; }
+.controles { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 7px 18px; margin: 0; }
+.controles dt { font-weight: 600; white-space: nowrap; }
+.controles dd { margin: 0; }
+.lista-creditos { margin: 8px 0 12px; padding-left: 1.1em; }
+.cerrar {
+  position: absolute; top: 14px; right: 14px; display: grid; place-items: center; width: 44px; height: 44px; padding: 0;
+  border: 1px solid var(--line); border-radius: 50%; background: var(--paper); color: var(--ink); cursor: pointer;
+  transition: transform 160ms var(--ease-out);
+}
+.cerrar:active { transform: scale(0.97); }
+.cerrar svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+
+/* ---------- Pantallas angostas ---------- */
+@media (max-width: 860px) {
+  .hud-acciones .etq { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .hud-acciones .hud-btn { padding: 0; width: 44px; }
+  .sello { order: 3; flex-basis: 100%; justify-items: center; margin: -2px 0 0; text-align: center; }
+  .hud-sup { flex-wrap: wrap; padding-bottom: 36px; }
+  .sello-t { font-size: 1.1rem; }
+}
+@media (max-width: 640px) {
+  .hud-acciones { gap: 6px; }
+  .hud-salir { padding: 0 12px 0 8px; }
+  .tarjeta { top: calc(max(14px, env(safe-area-inset-top)) + 104px); bottom: auto; max-height: calc(100dvh - 300px); padding: 16px 16px 14px; }
+  .tarjeta p { font-size: 0.9375rem; }
+  .aviso { top: 120px; }
+  .acerca-in { padding: 22px 18px 18px; }
+  .controles { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .controles dd { margin-bottom: 8px; }
+}
+/* En pantallas táctiles la ayuda queda a la derecha del joystick, sin taparlo ni chocar con la tarjeta. */
+html.tactil .ayuda { left: auto; right: max(16px, env(safe-area-inset-right)); max-width: min(340px, calc(100vw - 196px)); }
+html.tactil .t-mas kbd { display: none; }
+@media (pointer: coarse) {
+  .ayuda { left: auto; right: max(16px, env(safe-area-inset-right)); max-width: min(340px, calc(100vw - 196px)); }
+  .ayuda ul { display: none; }
+  .ayuda-tactil { display: block; }
+  .t-mas kbd { display: none; }
+}

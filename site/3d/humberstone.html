@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es-CL" data-modo="adultos">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Humberstone, c. 1935 · Paseo 3D · Historia de Chile</title>
+  <meta name="description" content="Camina por la plaza de la oficina salitrera Humberstone hacia 1935: teatro, pulpería, mercado, iglesia, hotel y casas de obreros. Reconstrucción aproximada en 3D.">
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    /* Movimiento: igual que en index.html. «auto» sigue al equipo; .rm = movimiento reducido (sin balanceo ni travelling). */
+    (function (d) { var p; try { p = localStorage.getItem('movimiento'); } catch (e) {}
+      var r = p === 'reducido' || (p !== 'completo' && matchMedia('(prefers-reduced-motion: reduce)').matches);
+      d.classList.add('js'); if (r) d.classList.add('rm'); })(document.documentElement);
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23A8471F'/%3E%3Cpath d='M17 4c-1 6 1 9-1 14s0 7-2 10' stroke='%23F5F1E8' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preload" href="../fonts/atkinson-hyperlegible-next-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/fuentes.css">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="paseo.css?v=9d01512a27">
+</head>
+<body class="paseo" data-escena="humberstone.glb?v=521862b18a">
+  <canvas id="escena" tabindex="0" role="application"
+    aria-label="Paseo 3D por la plaza de Humberstone hacia 1935. Flechas o W A S D para caminar y girar, Mayúscula para correr, Enter para leer el punto de interés cercano."></canvas>
+  <div class="velo" aria-hidden="true"></div>
+
+  <!-- Marcadores de los puntos de interés (se ubican sobre los edificios) -->
+  <div class="marcas" id="marcas" aria-hidden="true"></div>
+
+  <!-- Barra superior -->
+  <header class="hud-sup" data-hud hidden>
+    <a class="hud-btn hud-salir" href="../index.html#evento/la-epoca-del-salitre">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      <span class="etq">Salir al atlas</span>
+    </a>
+    <p class="sello"><span class="sello-t">Humberstone, <span class="anio">c. 1935</span></span><span class="sello-r">Reconstrucción aproximada</span></p>
+    <div class="hud-acciones">
+      <button class="hud-btn" id="b-sonido" type="button" aria-pressed="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="ondas" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="tacha" d="M17 9l5 6M22 9l-5 6"/></svg>
+        <span class="etq">Sonido</span>
+      </button>
+      <button class="hud-btn" id="b-liviano" type="button" aria-pressed="false" title="Sin sombras y con menos píxeles, para equipos modestos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>
+        <span class="etq">Modo liviano</span>
+      </button>
+      <button class="hud-btn" id="b-pantalla" type="button" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+        <span class="etq">Pantalla completa</span>
+      </button>
+      <button class="hud-btn" id="b-info" type="button" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>
+        <span class="etq">Controles y créditos</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Ayuda de controles: se desvanece al caminar -->
+  <aside class="ayuda" id="ayuda" data-hud hidden aria-label="Controles">
+    <p class="ayuda-t">Cómo caminar</p>
+    <ul>
+      <li><span class="teclas"><kbd>↑</kbd><kbd>↓</kbd></span> o <kbd>W</kbd><kbd>S</kbd> avanzar y retroceder</li>
+      <li><span class="teclas"><kbd>←</kbd><kbd>→</kbd></span> o <kbd>A</kbd><kbd>D</kbd> girar</li>
+      <li><kbd>Mayús</kbd> correr · arrastra para mirar</li>
+      <li>Acércate a un <span class="mini-punto" aria-hidden="true">1</span> y pulsa <kbd>Enter</kbd> para leer</li>
+    </ul>
+    <p class="ayuda-tactil">Usa el control de la esquina para caminar (empújalo hasta el borde para correr) y arrastra la pantalla para mirar.</p>
+  </aside>
+
+  <!-- Tarjeta del punto de interés cercano -->
+  <section class="tarjeta" id="tarjeta" hidden aria-labelledby="t-titulo">
+    <h2 id="t-titulo"></h2>
+    <p class="t-meta">Punto de interés <span id="t-num"></span></p>
+    <p id="t-corto"></p>
+    <div id="t-largo" hidden>
+      <p></p>
+      <p class="fuente" id="t-fuente"></p>
+    </div>
+    <button class="btn btn-sec t-mas" id="t-mas" type="button" aria-expanded="false" aria-controls="t-largo">
+      <span class="etq">Leer más</span> <kbd aria-hidden="true">Enter</kbd>
+    </button>
+  </section>
+
+  <!-- Joystick táctil -->
+  <div class="joystick" id="joystick" data-hud hidden aria-hidden="true"><div class="perilla"></div></div>
+
+  <p class="aviso" id="aviso" role="status"></p>
+  <p class="sr-only" id="anuncio" aria-live="polite"></p>
+
+  <!-- Portada: carga y cartel -->
+  <div class="portada" id="portada">
+    <div class="cartel">
+      <h1>Humberstone, <span class="anio">c. 1935</span></h1>
+      <p class="cartel-sub">Reconstrucción aproximada · paseo 3D de «La época del salitre»</p>
+      <p class="cartel-intro">En 1934 la Compañía Salitrera de Tarapacá y Antofagasta reabrió la antigua oficina La Palma con el nombre de Santiago Humberstone, y en dos años levantó alrededor de la plaza el teatro, la pulpería, el mercado, la iglesia y el hotel. Camina por ella.</p>
+      <div class="carga" role="progressbar" aria-label="Cargando la escena" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+      <p class="estado" id="estado" aria-live="polite">Cargando la escena…</p>
+      <button class="btn entrar" id="b-entrar" type="button" disabled>Entrar</button>
+      <p class="cartel-nota">Con sonido del viento y los pasos · flechas o WASD para caminar</p>
+    </div>
+    <div class="error" id="error" hidden role="alert">
+      <h1>El paseo no se pudo abrir</h1>
+      <p id="error-texto"></p>
+      <p><a class="btn btn-sec" href="../index.html#evento/la-epoca-del-salitre">Volver al atlas</a></p>
+    </div>
+    <noscript><p class="noscript">El paseo 3D necesita JavaScript. <a href="../index.html#evento/la-epoca-del-salitre">Volver al atlas</a>.</p></noscript>
+  </div>
+
+  <!-- Controles, reconstrucción y créditos -->
+  <dialog class="acerca" id="acerca" aria-labelledby="acerca-t">
+    <div class="acerca-in">
+      <button class="cerrar" type="button" aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <h2 id="acerca-t">Paseo 3D: Humberstone, c. 1935</h2>
+
+      <h3>Controles</h3>
+      <dl class="controles">
+        <dt><kbd>↑</kbd> <kbd>↓</kbd> o <kbd>W</kbd> <kbd>S</kbd></dt><dd>Avanzar y retroceder</dd>
+        <dt><kbd>←</kbd> <kbd>→</kbd> o <kbd>A</kbd> <kbd>D</kbd></dt><dd>Girar</dd>
+        <dt><kbd>Mayús</kbd></dt><dd>Correr</dd>
+        <dt>Arrastrar</dt><dd>Mirar alrededor (mouse o dedo)</dd>
+        <dt><kbd>Enter</kbd></dt><dd>Leer más del punto de interés cercano</dd>
+        <dt>Táctil</dt><dd>El control de la esquina camina y gira; en el borde, corre</dd>
+      </dl>
+
+      <h3>Sobre la reconstrucción</h3>
+      <p>Es una <strong>reconstrucción aproximada</strong>. La planta y las medidas vienen del expediente de nominación de la UNESCO y de las huellas de edificios de OpenStreetMap; los materiales (pino oregón, calamina, estuco, hormigón) del expediente y de ICOMOS. Los colores, varias alturas, los árboles y los postes se estimaron a partir de fotografías actuales. Las casas de obreros se acercaron a la plaza para el recorrido. <strong>El teatro es distinto:</strong> sus fachadas y la boca del escenario son fotos reales de Wikimedia Commons enderezadas sobre cada muro, así que se ve como está hoy, no recién construido. Se puede entrar por la puerta central: la sala se armó a partir de fotos de su interior; el número de filas y el interior del vestíbulo son aproximados. La explicación completa y las fuentes están en la nota «Humberstone 1935» del proyecto. Las personas son siluetas sin rostro ni vestimenta, para no inventar caras ni ropa; los jotes que planean, el polvo que levanta el viento y la ropa tendida son interpretación.</p>
+      <p>Fuentes: <a href="https://whc.unesco.org/uploads/nominations/1178.pdf" target="_blank" rel="noopener">expediente UNESCO</a>, <a href="https://whc.unesco.org/archive/advisory_body_evaluation/1178.pdf" target="_blank" rel="noopener">evaluación de ICOMOS</a>, <a href="https://museodelsalitre.cl/patrimonio-mundial/humberstone/" target="_blank" rel="noopener">Museo del Salitre</a>, <a href="https://www.memoriachilena.gob.cl/602/w3-article-3548.html" target="_blank" rel="noopener">Memoria Chilena</a> y <a href="https://www.ubo.cl/?p=36065" target="_blank" rel="noopener">Universidad Bernardo O'Higgins</a>.</p>
+
+      <h3>Créditos</h3>
+      <p>Geometría, árboles y textura de las hojas hechos por script en Blender (sin modelos ni texturas generados por IA). Texturas de <a href="https://polyhaven.com" target="_blank" rel="noopener">Poly Haven</a>, todas con licencia <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" target="_blank" rel="noopener">CC0 1.0</a>:</p>
+      <ul class="lista-creditos">
+        <li><a href="https://polyhaven.com/a/gravelly_sand" target="_blank" rel="noopener">Gravelly Sand</a> · Dario Barresi · CC0</li>
+        <li><a href="https://polyhaven.com/a/dry_ground_01" target="_blank" rel="noopener">Dry Ground 01</a> · Rob Tuytel · CC0</li>
+        <li><a href="https://polyhaven.com/a/white_stucco_02" target="_blank" rel="noopener">White Stucco 02</a> · Dimitrios Savva · CC0</li>
+        <li><a href="https://polyhaven.com/a/white_planks_clean" target="_blank" rel="noopener">White Planks Clean</a> · Rob Tuytel · CC0</li>
+        <li><a href="https://polyhaven.com/a/worn_corrugated_iron" target="_blank" rel="noopener">Worn Corrugated Iron</a> · Jenelle van Heerden y Dimitrios Savva · CC0</li>
+        <li><a href="https://polyhaven.com/a/brushed_concrete" target="_blank" rel="noopener">Brushed Concrete</a> · Dario Barresi y Dimitrios Savva · CC0</li>
+        <li><a href="https://polyhaven.com/a/bark_brown_02" target="_blank" rel="noopener">Bark Brown 02</a>, corteza de los árboles · Rob Tuytel · CC0</li>
+      </ul>
+      <p>Fotografías del teatro (Wikimedia Commons), enderezadas para las fachadas y el escenario:</p>
+      <ul class="lista-creditos">
+        <li><a href="https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura,_Chile,_2016-02-11,_DD_61.jpg" target="_blank" rel="noopener">Frente del teatro</a> · Diego Delso · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura,_Chile,_2016-02-11,_DD_63-65_HDR.jpg" target="_blank" rel="noopener">Sala y escenario</a> · Diego Delso · <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Chile_Teatro_Humberstone_2.jpg" target="_blank" rel="noopener">Costado oriente</a> · Pablo Trincado · <a href="https://creativecommons.org/licenses/by/2.0/deed.es" target="_blank" rel="noopener">CC BY 2.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Chile_Teatro_Humberstone_3.jpg" target="_blank" rel="noopener">Costado poniente y fondo</a> · Pablo Trincado · <a href="https://creativecommons.org/licenses/by/2.0/deed.es" target="_blank" rel="noopener">CC BY 2.0</a></li>
+      </ul>
+      <p>Las texturas del teatro derivan de esas fotos y se comparten con la misma licencia (CC BY-SA 4.0).</p>
+      <p>El cielo se calcula en el navegador con el modelo de luz diurna de Preetham (incluido en three.js), con el sol en su posición real para Humberstone una tarde de fines de noviembre, cerca de las cinco y media.</p>
+      <p>Planta de referencia: © colaboradores de <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (ODbL). Sonido sintetizado en el navegador (WebAudio), sin grabaciones. Motor 3D: <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> (MIT). Animación de la interfaz: GSAP. Tipografías Newsreader y Atkinson Hyperlegible Next (OFL). Lista en <a href="creditos.json">creditos.json</a>.</p>
+    </div>
+  </dialog>
+
+  <script src="../js/vendor/gsap.min.js"></script>
+  <script src="../js/vendor/CustomEase.min.js"></script>
+  <script src="paseo.js?v=035c7d167d"></script>
+</body>
+</html>

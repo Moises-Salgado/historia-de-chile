@@ -13,6 +13,8 @@ fuentes:
   - "Memoria Chilena — Exploradores y colonos en Aysén (1870-1927) — https://www.memoriachilena.gob.cl/602/w3-article-620.html"
   - "Memoria Chilena — Sociedad Industrial de Aysén — https://www.memoriachilena.gob.cl/602/w3-article-92435.html"
   - "Biblioteca del Congreso Nacional — Decreto 311 de 1937, texto definitivo de la Ley de Colonización de Aysén — https://www.bcn.cl/leychile/navegar?idNorma=12229"
+  - "Museo Chileno de Arte Precolombino — Tehuelche: historia — https://chileprecolombino.cl/pueblos-originarios/tehuelche/historia/"
+  - "Servicio Nacional del Patrimonio Cultural — Osorio, «La ocupación del sector Coyhaique Bajo: desde la Estancia Coyhaique al Museo Regional de Aysén» — https://www.investigacion.patrimoniocultural.gob.cl/sites/www.investigacion.patrimoniocultural.gob.cl/files/2022-01/La%20ocupaci%C3%B3n%20del%20sector%20_Coyhaique%20Bajo_%20desde%20la%20Estancia%20Coyhaique%20al%20Museo%20Regional%20de%20Ays%C3%A9n.pdf"
 tags:
   - evento
 imagen: "Colonos-del-rio-Baker-Aysen.jpg"
@@ -21,13 +23,13 @@ imagen_pie: "Colonos del río Baker, en Aysén, hacia 1935. Autor desconocido."
 # Colonización de Aysén
 
 ## Para niños
-Aysén es una región del sur de Chile llena de montañas, ríos, lagos y bosques. Durante siglos, sus canales fueron recorridos por los [[Pueblo Chono|chonos]] en sus canoas. Hace poco más de cien años, el gobierno entregó grandes terrenos a compañías ganaderas, y también llegaron familias chilenas que vivían en Argentina. Construyeron casas, caminos y pueblos como Coyhaique. Para tener campos donde criar animales quemaron muchos bosques, y todavía se ven troncos quemados en algunos lugares.
+Aysén es una región del sur de Chile llena de montañas, ríos, lagos y bosques. Durante siglos, sus canales fueron recorridos por los [[Pueblo Chono|chonos]] en sus canoas, y sus pampas del interior, por cazadores tehuelches. Hace poco más de cien años, el gobierno entregó grandes terrenos a compañías ganaderas, y también llegaron familias chilenas que vivían en Argentina. Construyeron casas, caminos y pueblos como Coyhaique. Para tener campos donde criar animales quemaron muchos bosques, y todavía se ven troncos quemados en algunos lugares.
 
 > [!tip] ¿Sabías que?
-> Coyhaique se fundó en 1929 con el nombre de Baquedano, pero muy pronto pasó a llamarse Coyhaique.
+> Coyhaique se fundó en 1929 con el nombre de Baquedano, y en la década de 1930 pasó a llamarse Coyhaique, para no confundirla con Baquedano, en Antofagasta.
 
 ## Para adultos
-Los archipiélagos de Aysén fueron recorridos durante siglos por los canoeros [[Pueblo Chono|chonos]], pero el interior, entre la cordillera y las estepas, fue para el Estado chileno un territorio casi desconocido hasta fines del siglo XIX. En 1870 la Armada encargó al capitán Enrique Simpson explorar la costa de la [[Patagonia]] occidental; Simpson llegó al borde de la meseta y descubrió el valle que hoy lleva su nombre. Entre 1892 y 1902, el geógrafo alemán Hans Steffen recorrió la región para el gobierno. El [[Tratado de Límites con Argentina]] de 1881 fijó la frontera en las cumbres que dividen las aguas, pero en esta zona su aplicación era difícil, y solo el arbitraje británico de 1902 la definió.
+Los archipiélagos de Aysén fueron recorridos durante siglos por los canoeros [[Pueblo Chono|chonos]] y las estepas del interior por grupos tehuelches, pero el interior fue para el Estado chileno un territorio casi desconocido hasta fines del siglo XIX. En 1870 la Armada encargó al capitán Enrique Simpson explorar la costa de la [[Patagonia]] occidental; Simpson llegó al borde de la meseta y descubrió el valle que hoy lleva su nombre. Entre 1892 y 1902, el geógrafo alemán Hans Steffen recorrió la región para el gobierno. El [[Tratado de Límites con Argentina]] de 1881 fijó la frontera en las cumbres que dividen las aguas, pero en esta zona su aplicación era difícil, y solo el arbitraje británico de 1902 la definió.
 
 Resuelto el límite, el Estado arrendó grandes extensiones a compañías ganaderas. En 1903 se formó, con capitales de Magallanes, la Sociedad Industrial de Aysén, que obtuvo los valles de Ñirehuao, Coyhaique y Mañihuales. Abrió un camino hasta el mar, donde instaló en 1913 el embarcadero que dio origen a Puerto Aysén, y una línea de barcos a Puerto Montt. En 1904 la Sociedad Explotadora del Baker recibió otra concesión, pero quebró pocos años después por el aislamiento y los costos.
 

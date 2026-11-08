@@ -16,6 +16,7 @@ fuentes:
   - "Memoria Chilena — Manuel Segundo Manquilef González (1887-1950) — https://www.memoriachilena.gob.cl/602/w3-article-647064.html"
   - "Biblioteca del Congreso Nacional — Reseña biográfica de Venancio Coñuepán Huenchual — https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Venancio_Co%C3%B1uep%C3%A1n_Huenchual"
   - "Biblioteca del Congreso Nacional — Decreto Ley 2.568 (1979) — https://www.bcn.cl/leychile/navegar?idNorma=6957"
+  - "Universidad de Chile, Repositorio Académico — André Menard, «El Congreso Araucano. Ley, raza y escritura en la política mapuche», Política 44 (2005) — https://repositorio.uchile.cl/handle/2250/121822"
 tags:
   - evento
 imagen: "Discurso de Manuel Manquilef en el Congreso Católico Araucanista.jpg"
@@ -24,13 +25,13 @@ imagen_pie: "Discurso de Manuel Manquilef en el Congreso Católico Araucanista, 
 # Movimiento mapuche del siglo XX
 
 ## Para niños
-Después de perder gran parte de sus tierras, el [[Pueblo Mapuche|pueblo mapuche]] no se quedó callado. En 1910, un grupo de mapuche fundó la Sociedad Caupolicán para defender sus derechos. Luego nacieron otras organizaciones, con profesores, lonkos y diputados. Escribían cartas al presidente, se reunían en grandes congresos y publicaban en los diarios. No todos pensaban igual: algunos querían dividir las tierras de las comunidades y otros querían conservarlas juntas. Gracias a su esfuerzo, la lengua y la cultura mapuche siguieron vivas.
+Después de que el Estado de Chile ocupó su territorio y les dejó solo una pequeña parte de sus tierras, el [[Pueblo Mapuche|pueblo mapuche]] no se quedó callado. En 1910, un grupo de mapuche fundó la Sociedad Caupolicán para defender sus derechos. Luego nacieron otras organizaciones, con profesores, lonkos y diputados. Escribían cartas al presidente, se reunían en grandes congresos y publicaban en los diarios. No todos pensaban igual: algunos querían dividir las tierras de las comunidades y otros querían conservarlas juntas. Con su esfuerzo defendieron sus tierras, su lengua y su cultura, que siguen vivas hasta hoy.
 
 > [!tip] ¿Sabías que?
 > Manuel Manquilef, uno de los fundadores de la Sociedad Caupolicán, trabajó como bibliotecario en el liceo de [[Temuco]] y escribió libros sobre las costumbres de su pueblo.
 
 ## Para adultos
-Tras la [[Ocupación de la Araucanía]], el Estado radicó a las comunidades [[Pueblo Mapuche|mapuche]] en reducciones, con títulos de merced que les dejaron una fracción de su territorio. A comienzos del siglo XX, además, las tierras de más de doscientas comunidades fueron usurpadas y legalizadas en notarías y conservadores. En ese contexto, una generación de mapuche formados en escuelas misionales y fiscales creó las primeras organizaciones modernas. En 1910, Manuel Manquilef y otros dirigentes fundaron la Sociedad Caupolicán Defensora de la Araucanía. Poco después surgió la Federación Araucana, encabezada por Manuel Aburto Panguilef, que defendió la tierra comunitaria, la lengua y las tradiciones, y desde 1919 se reunieron congresos araucanos.
+Tras la [[Ocupación de la Araucanía]], el Estado radicó a las comunidades [[Pueblo Mapuche|mapuche]] en reducciones, con títulos de merced que les dejaron una fracción de su territorio. A comienzos del siglo XX, además, las tierras de más de doscientas comunidades fueron usurpadas y legalizadas en notarías y conservadores. En ese contexto, una generación de mapuche formados en escuelas misionales y fiscales creó las primeras organizaciones modernas. En 1910, Manuel Manquilef y otros dirigentes fundaron la Sociedad Caupolicán Defensora de la Araucanía. Desde diciembre de 1921, Manuel Aburto Panguilef convocó los congresos araucanos, de los que nació la Federación Araucana, que defendió la tierra comunitaria, la lengua y las tradiciones.
 
 El movimiento también llegó al Congreso Nacional: Francisco Melivilu fue elegido diputado en 1924, el primero de origen indígena, y Manquilef lo fue en 1926. El gran debate fue entre «divisionistas» y «comunitaristas». Manquilef impulsó la Ley 4.169, promulgada el 24 de agosto de 1927, que permitía dividir las comunidades en hijuelas individuales; creía que convertir a los mapuche en propietarios resolvería su pobreza. Aburto Panguilef y la Federación Araucana sostenían, en cambio, que sin tierra comunitaria la cultura no podía sobrevivir. La ley fue reemplazada en 1930 por la Ley 4.802, que creó los Juzgados de Indios.
 

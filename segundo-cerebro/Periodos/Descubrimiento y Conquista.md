@@ -5,8 +5,12 @@ orden: 2
 inicio: 1520
 fin: 1598
 rango: 1520–1598
-gancho: "Buscaban oro, y desde 1598 la resistencia mapuche les arrebató casi todo el sur"
+gancho: "Buscaban oro; en 1598 la resistencia mapuche los obligó a abandonar casi todo el sur"
 revisado: pendiente
+fuentes:
+  - "Memoria Chilena — Cartas de Relación de la Conquista de Chile — https://www.memoriachilena.gob.cl/602/w3-article-3325.html"
+  - "Memoria Chilena — La Araucana — https://www.memoriachilena.gob.cl/602/w3-article-3286.html"
+  - "Memoria Chilena — Ejército español — https://www.memoriachilena.gob.cl/602/w3-article-92258.html"
 tags:
   - periodo
 imagen: "Fundacion de Santiago.jpg"
@@ -36,7 +40,7 @@ Los historiadores discuten el término "descubrimiento": desde la mirada de los 
 - La conquista combinó exploración, fundación de ciudades, guerra y trabajo forzado indígena.
 - La resistencia mapuche frenó el avance español y convirtió el Biobío en una frontera.
 - "Descubrimiento", "conquista" e "invasión" son palabras que expresan miradas distintas sobre los mismos hechos.
-**Habilidad a trabajar:** Pensamiento crítico: comparar la visión de los conquistadores con la de los pueblos originarios, a partir de fuentes como las crónicas y La Araucana.
+**Habilidad a trabajar:** Pensamiento crítico: leer un fragmento de una carta de Pedro de Valdivia y otro de La Araucana (ver [[La Araucana de Alonso de Ercilla]]), identificar cómo describen a los mapuche y preguntarse qué voces faltan, ya que ambos textos los escribieron españoles.
 
 ## Eventos
 - [[Magallanes cruza el estrecho]]

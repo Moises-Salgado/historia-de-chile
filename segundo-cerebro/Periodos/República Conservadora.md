@@ -7,6 +7,13 @@ fin: 1860
 rango: 1831–1861
 gancho: "Tres presidentes en treinta años: orden, plata de Chañarcillo y destierros"
 revisado: pendiente
+fuentes:
+  - "Memoria Chilena — Diego Portales Palazuelos (1793-1837) — https://www.memoriachilena.gob.cl/602/w3-article-3358.html"
+  - "Memoria Chilena — La Constitución de 1833 — https://www.memoriachilena.gob.cl/602/w3-article-3506.html"
+  - "Memoria Chilena — Los ciclos mineros del cobre y la plata (1820-1880) — https://www.memoriachilena.gob.cl/602/w3-article-727.html"
+  - "Memoria Chilena — Exportación de trigo — https://www.memoriachilena.gob.cl/602/w3-article-94448.html"
+  - "Memoria Chilena — Fusión Liberal-Conservadora — https://www.memoriachilena.gob.cl/602/w3-article-96625.html"
+  - "Memoria Chilena — Colonización alemana en Valdivia, Osorno y Llanquihue (1823-1910) — https://www.memoriachilena.gob.cl/602/w3-article-676.html"
 tags:
   - periodo
 imagen: "LlegadaDelPresidentePrietoALaPampa.jpg"
@@ -15,7 +22,7 @@ imagen_pie: "Llegada del presidente Prieto a las fiestas patrias de la Pampilla,
 # República Conservadora
 
 ## Para niños
-Después de años de desorden, en 1830 un grupo conservador ganó la [[Batalla de Lircay]] y tomó el poder. Querían un país tranquilo y ordenado, con un presidente fuerte. Por eso se aprobó la [[Constitución de 1833]]. En esta época se creó la [[Fundación de la Universidad de Chile|Universidad de Chile]], Chile llegó al [[Estrecho de Magallanes]] y familias alemanas se instalaron en el sur. También hubo una guerra contra la [[Guerra contra la Confederación Perú-Boliviana|Confederación Perú-Boliviana]], que Chile ganó.
+Después de años de muchos cambios y desacuerdos, en 1830 un grupo conservador ganó la [[Batalla de Lircay]] y tomó el poder. Querían un país tranquilo y ordenado, con un presidente fuerte. Por eso se aprobó la [[Constitución de 1833]]. En esta época se creó la [[Fundación de la Universidad de Chile|Universidad de Chile]], Chile tomó posesión del [[Estrecho de Magallanes]], donde vivían pueblos como los [[Pueblo Kawésqar|kawésqar]] y los [[Pueblo Aónikenk|aónikenk]], y familias alemanas se instalaron en el sur, en tierras donde también vivían familias mapuche-huilliche. También hubo una guerra contra la [[Guerra contra la Confederación Perú-Boliviana|Confederación Perú-Boliviana]], que Chile ganó.
 
 > [!tip] ¿Sabías que?
 > A los gobiernos de esta época se les llama "decenios", porque tres presidentes seguidos gobernaron diez años cada uno: José Joaquín Prieto, [[Manuel Bulnes]] y Manuel Montt.
@@ -23,7 +30,7 @@ Después de años de desorden, en 1830 un grupo conservador ganó la [[Batalla d
 ## Para adultos
 La República Conservadora (1831–1861) comenzó tras el triunfo conservador en la [[Batalla de Lircay]] (1830), que cerró la etapa de [[Organización de la República]]. El bando vencedor, apoyado por la elite de [[Santiago]] y con el ministro [[Diego Portales]] como figura clave, impuso un orden autoritario y centralizado, consagrado en la [[Constitución de 1833]]: un presidente fuerte, voto censitario y religión católica oficial. Gobernaron tres decenios: José Joaquín Prieto (1831–1841), [[Manuel Bulnes]] (1841–1851) y Manuel Montt (1851–1861).
 
-Chile venció en la [[Guerra contra la Confederación Perú-Boliviana]] (1836–1839) y el Estado se consolidó: se creó la [[Fundación de la Universidad de Chile|Universidad de Chile]], con [[Andrés Bello]] como rector; se promulgó el Código Civil (1855); se tomó posesión del estrecho de Magallanes con el [[Fuerte Bulnes y el Estrecho de Magallanes|Fuerte Bulnes]] y se impulsó la [[Colonización alemana en Llanquihue]]. La economía creció con la plata de Chañarcillo, cerca de [[Copiapó]], y con la exportación de trigo a California y Australia.
+Chile venció en la [[Guerra contra la Confederación Perú-Boliviana]] (1836–1839) y el Estado se consolidó: se creó la [[Fundación de la Universidad de Chile|Universidad de Chile]], con [[Andrés Bello]] como rector; se promulgó el Código Civil (1855); se tomó posesión del estrecho de Magallanes con el [[Fuerte Bulnes y el Estrecho de Magallanes|Fuerte Bulnes]] y se impulsó la [[Colonización alemana en Llanquihue]], en territorios habitados por pueblos originarios. La economía creció con la plata de Chañarcillo, cerca de [[Copiapó]], y con la exportación de trigo a California y Australia.
 
 El orden tuvo costos: estados de sitio, destierros y las revoluciones de 1851 y 1859. Desde 1856, la llamada "cuestión del sacristán" dividió a los conservadores y abrió paso a los liberales. La historiografía discute si este periodo fue un modelo de estabilidad institucional o un régimen oligárquico que restringió la participación política.
 
@@ -34,7 +41,7 @@ El orden tuvo costos: estados de sitio, destierros y las revoluciones de 1851 y 
 - El Estado se consolidó mediante instituciones educativas, jurídicas y la ocupación de nuevos territorios.
 - La estabilidad tuvo costos: restricción de libertades, voto censitario y revoluciones en 1851 y 1859.
 - El periodo es objeto de debate: estabilidad institucional para unos, régimen oligárquico y autoritario para otros.
-**Habilidad a trabajar:** Análisis de continuidad y cambio, y contraste de interpretaciones historiográficas sobre el llamado "orden portaliano".
+**Habilidad a trabajar:** Análisis de continuidad y cambio, y contraste de interpretaciones historiográficas sobre el llamado "orden portaliano", a partir de las páginas sobre Portales y la Constitución de 1833 citadas en las fuentes.
 
 ## Eventos
 - [[Constitución de 1833]]

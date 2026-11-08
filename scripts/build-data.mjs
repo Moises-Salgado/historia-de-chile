@@ -274,7 +274,30 @@ if (fs.existsSync(dirRutas)) for (const f of fs.readdirSync(dirRutas).filter((x)
 }
 rutas.sort((a, b) => a.orden - b.orden);
 
-const data = { periodos, eventos, fichas, territorios, grafo, rutas, generado: new Date().toISOString().slice(0, 10) };
+// ---------- Mundos 3D (segundo-cerebro/Mundos): paseos a pie en páginas propias (site/3d/, npm run 3d) ----------
+// El peso es lo que descarga el visitante: la escena .glb con el nombre de la página y paseo.js.
+const mundos = [];
+const dirMundos = path.join(VAULT, 'Mundos');
+const enSitio = (p) => String(p || '').replace(/^site\//, '');
+if (fs.existsSync(dirMundos)) for (const f of fs.readdirSync(dirMundos).filter((x) => x.endsWith('.md'))) {
+  const { data: d } = parseFrontmatter(fs.readFileSync(path.join(dirMundos, f), 'utf8'));
+  if (d.tipo !== 'mundo') continue;
+  const href = enSitio(d.pagina), abs = path.join(ROOT, 'site', href);
+  if (!href || !fs.existsSync(abs)) { avisos.push(`Mundo ${f}: no existe la página ${d.pagina}`); continue; }
+  const ev = nombres.get(linkName(d.evento));
+  if (d.evento && !evSet.has(ev)) avisos.push(`Mundo ${f}: momento sin nota: ${d.evento}`);
+  const portada = enSitio(d.portada);
+  if (portada && !fs.existsSync(path.join(ROOT, 'site', portada))) avisos.push(`Mundo ${f}: no existe la portada ${d.portada}`);
+  const peso = [abs.replace(/\.html$/, '.glb'), path.join(path.dirname(abs), 'paseo.js')]
+    .reduce((t, p) => t + (fs.existsSync(p) ? fs.statSync(p).size : 0), 0);
+  mundos.push({
+    id: slug(f.slice(0, -3)), titulo: d.titulo || f.slice(0, -3), desc: esc(String(d.descripcion || '')), href,
+    portada: portada || undefined, region: d.region || undefined, evento: evSet.has(ev) ? ev : undefined,
+    mb: Math.max(1, Math.round(peso / 1048576)),
+  });
+}
+
+const data = { periodos, eventos, fichas, territorios, grafo, rutas, mundos, generado: new Date().toISOString().slice(0, 10) };
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, `// Generado por scripts/build-data.mjs desde segundo-cerebro/. No editar a mano.\nwindow.HISTORIA=${JSON.stringify(data)};\n`);
 

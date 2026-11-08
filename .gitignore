@@ -9,3 +9,18 @@ segundo-cerebro/.obsidian/cache
 .impeccable/
 .env
 *.env
+
+# Configuración local de MCP (ruta propia de este equipo)
+.mcp.json
+
+# Descargas de Poly Haven para npm run 3d (se regeneran solas)
+scripts/3d/cache/
+
+# Pruebas de fotogrametría (no publicar hasta que el dueño apruebe)
+site/3d/prueba/
+
+# Caché de Python
+__pycache__/
+
+# Visor de la prueba de fotogrametría (va con site/3d/prueba/, no se publica)
+site/3d/src/visor-prueba.js

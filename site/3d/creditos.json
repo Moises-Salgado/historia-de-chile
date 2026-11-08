@@ -1,0 +1,118 @@
+{
+  "escena": "Humberstone, c. 1935 · reconstrucción aproximada",
+  "recursos": [
+    {
+      "tipo": "textura",
+      "id": "gravelly_sand",
+      "nombre": "Gravelly Sand",
+      "autores": [
+        "Dario Barresi"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/gravelly_sand"
+    },
+    {
+      "tipo": "textura",
+      "id": "dry_ground_01",
+      "nombre": "Dry Ground 01",
+      "autores": [
+        "Rob Tuytel"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/dry_ground_01"
+    },
+    {
+      "tipo": "textura",
+      "id": "white_stucco_02",
+      "nombre": "White Stucco 02",
+      "autores": [
+        "Dimitrios Savva"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/white_stucco_02"
+    },
+    {
+      "tipo": "textura",
+      "id": "white_planks_clean",
+      "nombre": "White Planks Clean",
+      "autores": [
+        "Rob Tuytel"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/white_planks_clean"
+    },
+    {
+      "tipo": "textura",
+      "id": "worn_corrugated_iron",
+      "nombre": "Worn Corrugated Iron",
+      "autores": [
+        "Jenelle van Heerden",
+        "Dimitrios Savva"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/worn_corrugated_iron"
+    },
+    {
+      "tipo": "textura",
+      "id": "brushed_concrete",
+      "nombre": "Brushed Concrete ",
+      "autores": [
+        "Dario Barresi",
+        "Dimitrios Savva"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/brushed_concrete"
+    },
+    {
+      "tipo": "textura",
+      "id": "bark_brown_02",
+      "nombre": "Bark Brown 02",
+      "autores": [
+        "Rob Tuytel"
+      ],
+      "licencia": "CC0 1.0",
+      "url": "https://polyhaven.com/a/bark_brown_02"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Oficinas salitreras de Humberstone y Santa Laura, Chile, 2016-02-11, DD 61.jpg",
+      "autores": [
+        "Diego Delso"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura%2C_Chile%2C_2016-02-11%2C_DD_61.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Oficinas salitreras de Humberstone y Santa Laura, Chile, 2016-02-11, DD 63-65 HDR.jpg",
+      "autores": [
+        "Diego Delso"
+      ],
+      "licencia": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura%2C_Chile%2C_2016-02-11%2C_DD_63-65_HDR.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Chile Teatro Humberstone 2.jpg",
+      "autores": [
+        "Pablo Trincado"
+      ],
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chile_Teatro_Humberstone_2.jpg"
+    },
+    {
+      "tipo": "foto",
+      "nombre": "Chile Teatro Humberstone 3.jpg",
+      "autores": [
+        "Pablo Trincado"
+      ],
+      "licencia": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chile_Teatro_Humberstone_3.jpg"
+    }
+  ],
+  "referencias": [
+    "Planta: expediente UNESCO 1178 y huellas de edificios de OpenStreetMap (ODbL), © colaboradores de OpenStreetMap",
+    "Teatro: fachadas y boca del escenario con fotos de Wikimedia Commons enderezadas (scripts/3d/teatro_fotos.py); muestran el estado actual. Lo que no sale en las fotos es aproximado.",
+    "Geometría modelada por script en Blender (scripts/3d/humberstone.py); sin modelos ni texturas generados por IA"
+  ]
+}

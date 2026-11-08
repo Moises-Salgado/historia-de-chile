@@ -28,9 +28,13 @@
       unicos(es.map(function (e) { return e.credito.licencia; })).join(', ') + ' · Wikimedia Commons';
   }
 
-  // Para la lámina del momento: recorridos asociados a un evento.
+  // Paseos 3D (segundo-cerebro/Mundos → HISTORIA.mundos): páginas propias en site/3d/, se abren en la misma pestaña.
+  var mundos = (window.HISTORIA && window.HISTORIA.mundos) || [];
+
+  // Para la lámina del momento: paseos 3D y recorridos asociados a un evento.
   function deEvento(eventoId) {
     var out = [];
+    mundos.forEach(function (m) { if (m.evento === eventoId) out.push({ titulo: m.titulo, modo: '3d', href: m.href, mb: m.mb }); });
     propios.forEach(function (r) { if (r.evento === eventoId) out.push({ titulo: r.titulo, modo: 'propio', id: r.id, institucion: r.institucion }); });
     externos.forEach(function (r) { if (r.evento === eventoId) out.push({ titulo: r.titulo, modo: 'externo', url: r.url, institucion: r.institucion }); });
     return out;
@@ -500,6 +504,20 @@
   // ================================================================ Sección «Recorridos 360°»
   function seccion() {
     var ulP = $('rec-propios'), ulE = $('rec-externos');
+    if (ulP) mundos.forEach(function (m) {
+      var li = el('li');
+      var a = el('a', 'rec-card', { href: m.href });
+      var fig = el('span', 'rec-img');
+      if (m.portada) fig.appendChild(el('img', null, { src: m.portada, alt: '', loading: 'lazy', decoding: 'async', width: '800', height: '500' }));
+      fig.appendChild(el('span', 'rec-360', { 'aria-hidden': 'true' }, '3D'));
+      a.appendChild(fig);
+      a.appendChild(el('span', 'rec-t', null, m.titulo));
+      if (m.desc) a.appendChild(el('span', 'rec-d', null, m.desc));
+      a.appendChild(el('span', 'rec-n', null, 'Paseo a pie' + (m.region ? ' · ' + m.region : '') + ' · descarga de ' + m.mb + ' MB'));
+      li.appendChild(a);
+      li.appendChild(el('p', 'rec-cred', null, 'Reconstrucción aproximada hecha para este sitio con Blender y three.js'));
+      ulP.appendChild(li);
+    });
     if (ulP) propios.forEach(function (r) {
       var li = el('li');
       var b = el('button', 'rec-card', { type: 'button', 'aria-haspopup': 'dialog' });

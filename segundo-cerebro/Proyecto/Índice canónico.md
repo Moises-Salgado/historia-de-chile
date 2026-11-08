@@ -53,7 +53,7 @@ Columnas: archivo | anio | fecha | lat | lon | lugar | personajes | nivel
 
 ### 4 · Independencia
 - Primera Junta Nacional de Gobierno | 1810 | 18 de septiembre de 1810 | -33.44 | -70.65 | Santiago | — | 6° básico
-- La Patria Vieja | 1812 | 1811–1814 | -33.44 | -70.65 | Santiago | José Miguel Carrera, Javiera Carrera, Camilo Henríquez | 6° básico
+- La Patria Vieja | 1812 | 1810–1814 | -33.44 | -70.65 | Santiago | José Miguel Carrera, Javiera Carrera, Camilo Henríquez | 6° básico
 - Desastre de Rancagua | 1814 | 1 y 2 de octubre de 1814 | -34.17 | -70.74 | Rancagua | Bernardo O'Higgins, José Miguel Carrera | 6° básico
 - Cruce de los Andes y Batalla de Chacabuco | 1817 | 12 de febrero de 1817 | -32.99 | -70.70 | — | José de San Martín, Bernardo O'Higgins, Manuel Rodríguez | 6° básico
 - Proclamación de la Independencia | 1818 | 12 de febrero de 1818 | -35.43 | -71.66 | Talca | Bernardo O'Higgins | 6° básico

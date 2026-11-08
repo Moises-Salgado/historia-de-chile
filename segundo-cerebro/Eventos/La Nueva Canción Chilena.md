@@ -14,6 +14,7 @@ revisado: pendiente
 fuentes:
   - "Memoria Chilena — La Nueva Canción Chilena — https://www.memoriachilena.gob.cl/602/w3-article-702.html"
   - "Memoria Chilena — Violeta Parra (1917-1967) — https://www.memoriachilena.gob.cl/602/w3-article-7683.html"
+  - "Poder Judicial — Corte Suprema, sentencia rol 7.885-2022 por el secuestro y homicidio de Víctor Jara y Littré Quiroga (2023) — https://www.pjud.cl/prensa-y-comunicaciones/getRulingNew/36887"
 tags:
   - evento
 imagen: "Victor-Jara-in-Helsinki-1969.jpg"
@@ -34,7 +35,7 @@ El movimiento tuvo sus propios espacios. En julio de 1965 abrió la Peña de los
 
 Su sello principal fue el compromiso con los cambios sociales de la época. Muchos de sus artistas apoyaron a la Unidad Popular y a [[Salvador Allende]], y la música se volvió parte de la vida política. Eso generó polémicas: la presentación de Quilapayún en el Festival de Viña del Mar, en febrero de 1973, causó un gran escándalo. Para unos, la Nueva Canción democratizó la cultura y dio voz a obreros y campesinos; para otros, mezcló el arte con la propaganda partidista. El debate sobre el arte comprometido sigue abierto.
 
-El [[Golpe de Estado de 1973]] terminó con su desarrollo en Chile. Víctor Jara fue asesinado en septiembre de 1973, y la represión y el exilio dispersaron a muchos músicos, que continuaron su trabajo en el extranjero (ver [[Violaciones a los derechos humanos]]). En Santiago surgió, en la segunda mitad de los años setenta, el Canto Nuevo, y en 1975 Ricardo García fundó el sello Alerce, que reeditó grabaciones de la Nueva Canción.
+El [[Golpe de Estado de 1973]] terminó con su desarrollo en Chile. Víctor Jara fue detenido y asesinado por militares en el Estadio Chile el 15 de septiembre de 1973; en 2023 la Corte Suprema condenó a siete exmilitares por el crimen. La represión y el exilio dispersaron a muchos músicos, que continuaron su trabajo en el extranjero (ver [[Violaciones a los derechos humanos]]). En Santiago surgió, en la segunda mitad de los años setenta, el Canto Nuevo, y en 1975 Ricardo García fundó el sello Alerce, que reeditó grabaciones de la Nueva Canción.
 
 ## Para maestros
 **Nivel sugerido:** 2° medio

@@ -7,6 +7,10 @@ fin: 1823
 rango: 1810–1823
 gancho: "Empezó gobernando en nombre de un rey cautivo y terminó declarando la independencia"
 revisado: pendiente
+fuentes:
+  - "Memoria Chilena — Inicios del proceso revolucionario o «Patria Vieja» (1810-1814) — https://www.memoriachilena.gob.cl/602/w3-article-100853.html"
+  - "Memoria Chilena — Aurora de Chile (1812-1813) — https://www.memoriachilena.gob.cl/602/w3-article-3500.html"
+  - "Memoria Chilena — Proclamación de la Independencia de Chile el 12 de febrero de 1818 — https://www.memoriachilena.gob.cl/602/w3-article-96486.html"
 tags:
   - periodo
 imagen: "Abrazo de Maipú Pedro Subercaseaux.jpg"
@@ -15,10 +19,10 @@ imagen_pie: "«Abrazo de Maipú»: San Martín y O'Higgins tras la victoria de 1
 # Independencia
 
 ## Para niños
-Entre 1810 y 1823, Chile dejó de ser una colonia de España y se convirtió en un país independiente. Todo comenzó con la [[Primera Junta Nacional de Gobierno]], que recordamos cada 18 de septiembre. Hubo años difíciles, con batallas y familias separadas. Patriotas como [[Bernardo O'Higgins]], [[José Miguel Carrera]] y [[Javiera Carrera]] trabajaron por la libertad. Con la ayuda del ejército de [[José de San Martín]], Chile ganó la guerra y en 1818 declaró su independencia.
+Entre 1810 y 1823, Chile dejó de ser una colonia de España y se convirtió en un país independiente. Todo comenzó con la [[Primera Junta Nacional de Gobierno]], que recordamos cada 18 de septiembre. Hubo años difíciles, con batallas y familias separadas. Patriotas como [[Bernardo O'Higgins]], [[José Miguel Carrera]] y [[Javiera Carrera]] trabajaron por la libertad. Con la ayuda del ejército de [[José de San Martín]], los patriotas ganaron batallas decisivas. En 1818 Chile declaró su independencia y, semanas después, la aseguró en la [[Batalla de Maipú|batalla de Maipú]].
 
 > [!tip] ¿Sabías que?
-> El primer diario de Chile, la Aurora de Chile, apareció en 1812 y lo dirigía un sacerdote: [[Camilo Henríquez]].
+> El primer periódico de Chile, la Aurora de Chile, apareció en 1812. Salía una vez por semana y lo dirigía un fraile: [[Camilo Henríquez]].
 
 ## Para adultos
 La invasión de Napoleón a España en 1808 y la captura del rey Fernando VII provocaron una crisis de legitimidad en toda Hispanoamérica. En [[Santiago]], la élite criolla formó la [[Primera Junta Nacional de Gobierno]] el 18 de septiembre de 1810, que gobernó en nombre del rey cautivo. Durante [[La Patria Vieja]] se reunió el primer Congreso Nacional, se abrió el comercio, nació la prensa y surgieron símbolos propios, en medio de la rivalidad entre [[José Miguel Carrera]] y [[Bernardo O'Higgins]]. El virrey del Perú envió expediciones militares y, tras el [[Desastre de Rancagua]] (1814), comenzó la Reconquista, con persecuciones y destierros de patriotas.

@@ -16,10 +16,11 @@ fuentes:
   - "Museo Chileno de Arte Precolombino — Selk'nam: culto y funebria — https://chileprecolombino.cl/pueblos-originarios/selknam/culto-y-funebria/"
   - "Memoria Chilena — Pueblos australes de Chile — https://www.memoriachilena.gob.cl/602/w3-article-3412.html"
   - "Memoria Chilena — Rutas de poblamiento y primeras adaptaciones humanas en Chile — https://www.memoriachilena.gob.cl/602/w3-article-100801.html"
+  - "Memoria Chilena — Chonos — https://www.memoriachilena.gob.cl/602/w3-article-93773.html"
 tags:
   - evento
 imagen: "Familia Yagán en canoa.jpg"
-imagen_pie: "Familia yagán en su canoa. Ilustración de «Women of all nations», editado por T. Athol Joyce, 1908."
+imagen_pie: "Familia yagán en su canoa de corteza. Fotografía publicada en «Women of All Nations» (ed. T. Athol Joyce, 1908)."
 ---
 # Pueblos canoeros y cazadores del extremo sur
 
@@ -32,15 +33,15 @@ En el extremo sur de Chile hace frío, sopla un viento fuerte y hay cientos de c
 ## Para adultos
 El extremo sur del continente fue habitado desde hace más de diez mil años. En la Cueva Fell, en la actual región de Magallanes, se encontraron rastros de cazadores que, hacia el 9.000 a.C., comían milodones, caballos americanos y guanacos, parte de una fauna que luego se extinguió. Otros sitios, como la Cueva del Milodón y Pali Aike, muestran que esas estepas frías fueron recorridas una y otra vez por grupos de cazadores durante milenios.
 
-Con el tiempo se consolidaron dos grandes modos de vida. Los cazadores terrestres recorrían a pie amplios territorios. Los [[Pueblo Aónikenk|aónikenk]], en las estepas de la [[Patagonia]] oriental, cazaban guanacos y ñandúes; el caballo, que adoptaron a fines del siglo XVII, cambió su movilidad. Los [[Pueblo Selk'nam|selk'nam]], en la Isla Grande de Tierra del Fuego, vivían del guanaco y tenían una vida ritual muy rica: el Hain era una ceremonia de iniciación de los jóvenes, organizada como una sociedad secreta de la que se excluía a las mujeres.
+Con el tiempo se consolidaron dos grandes modos de vida. Los cazadores terrestres recorrían a pie amplios territorios. Los [[Pueblo Aónikenk|aónikenk]], en las estepas de la [[Patagonia]] oriental, cazaban guanacos y ñandúes; el caballo, que adoptaron entre los siglos XVII y XVIII, cambió su movilidad. Los [[Pueblo Selk'nam|selk'nam]], en la Isla Grande de Tierra del Fuego, vivían del guanaco y tenían una vida ritual muy rica: el Hain era una ceremonia de iniciación de los jóvenes, organizada como una sociedad secreta de la que se excluía a las mujeres.
 
-El otro modo de vida fue el de los canoeros. Según el Museo Chileno de Arte Precolombino, las primeras evidencias de esta adaptación al mar aparecen hace unos 6.000 años. Su origen se discute: una hipótesis propone que llegaron navegando desde Chiloé; otra, que cazadores terrestres se adaptaron a la costa donde la estepa toca los canales. De esa tradición surgieron pueblos distintos: los [[Pueblo Chono|chonos]], entre [[Chiloé]] y la península de Taitao; los [[Pueblo Kawésqar|kawésqar]], entre el golfo de Penas y el [[Estrecho de Magallanes|estrecho de Magallanes]]; y los [[Pueblo Yagán|yaganes]] o yámana, en torno al canal Beagle. Navegaban en canoas de corteza cosida, con un fuego protegido en el centro, cazaban lobos marinos, nutrias y aves, y comían mariscos a diario. Las mujeres tenían un papel central: remaban y eran las únicas que buceaban para recolectar mariscos.
+El otro modo de vida fue el de los canoeros. Según el Museo Chileno de Arte Precolombino, las primeras evidencias de esta adaptación al mar aparecen hace unos 6.000 años. Su origen se discute: una hipótesis propone que llegaron navegando desde Chiloé; otra, que cazadores terrestres se adaptaron a la costa donde la estepa toca los canales. De esa tradición surgieron pueblos distintos: los [[Pueblo Chono|chonos]], entre [[Chiloé]] y la península de Taitao; los [[Pueblo Kawésqar|kawésqar]], entre el golfo de Penas y el [[Estrecho de Magallanes|estrecho de Magallanes]]; y los [[Pueblo Yagán|yaganes]] o yámana, en torno al canal Beagle. Kawésqar y yaganes navegaban en canoas de corteza cosida, con un fuego protegido en el centro; los chonos usaban la dalca, hecha de tablas cosidas. Cazaban lobos marinos, nutrias y aves, y comían mariscos a diario. Las mujeres tenían un papel central: remaban y eran las únicas que buceaban para recolectar mariscos.
 
 Los nombres con que se conoce a estos pueblos también tienen historia. «Ona», «alacalufe» o «patagón» son nombres dados por otros pueblos o por los europeos, y hoy se prefieren los que usan sus descendientes. Los primeros contactos con navegantes europeos, desde 1520, fueron esporádicos durante siglos. Desde fines del siglo XIX, la ganadería ovina, la búsqueda de oro, las misiones y las epidemias transformaron por completo su vida; esa historia, que incluye el genocidio selk'nam, se cuenta en [[Ocupación de Tierra del Fuego y genocidio selk'nam]].
 
 ## Para maestros
 **Nivel sugerido:** 2° básico
-**Objetivo:** Reconocer cómo los pueblos australes se adaptaron a un ambiente frío, lluvioso y lleno de canales, y distinguir el modo de vida canoero del de los cazadores de guanacos. La fecha lleva "c." porque es aproximada: las primeras huellas de cazadores en el extremo sur tienen más de diez mil años, y la vida canoera aparece hace unos 6.000.
+**Objetivo:** Reconocer cómo los pueblos australes se adaptaron a un ambiente frío, lluvioso y lleno de canales, y distinguir el modo de vida canoero del de los cazadores de guanacos. La fecha lleva "c." porque es aproximada: las primeras huellas de cazadores en el extremo sur tienen más de diez mil años. El 8.000 a.C. es una referencia para la ocupación temprana del extremo sur por cazadores terrestres; los pueblos canoeros aparecen hacia el 4.000 a.C. (hace unos 6.000 años).
 **Preguntas para la clase:**
 - ¿Qué necesitaban los pueblos canoeros para vivir en los canales?
 - ¿Qué tareas hacían las mujeres en la canoa? ¿Por qué eran tan importantes?
